@@ -80,7 +80,7 @@ function App() {
     if (isNewUser) {
       firebase.putData('users' + userId, { userEmail});
       firebase.putData('users' + userId, { timeTaken: {durationMin: 0}});
-      firebase.putData('users' + userId, { userName: {userName} });
+      firebase.putData('users' + userId, { userName });
     } else {
       console.log("Existing User");
     }}
