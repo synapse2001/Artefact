@@ -1,0 +1,182 @@
+body{
+    overflow-x: hidden;
+  }
+  .crashpic
+  {
+    filter: blur(8px);
+    -webkit-filter: blur(7px);
+    width: 100%;
+    /* opacity: 0.6; */
+    height: 100vh;
+  }
+  .level2-instruction{
+    width: 100%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.498);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    padding-left: 20px !important;
+    padding-top: 15px;
+    font-size: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 0, 0);
+    font-weight: normal;
+  }
+
+.crash-pre-text{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 20px;
+    color:rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.crash-video-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: 'translateX(-50%)',
+}
+.crash-video-container video {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .crash-container {
+    font-size: 2rem;
+    color: aliceblue;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.417);
+    top: 18vh;
+    left: 36vw;
+    height: 60%;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    z-index: 1;
+  }
+  @media(max-width:1000px) {
+    .crash-container {
+      font-size: 20px;
+      top: 90vh;
+      left: 25vw;
+      height: 100%;
+    }
+    .crashpic
+    {
+      height: 200vh;
+    }
+  }
+  
+  .crash-slider-container {
+    width: 50%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .crash-slider {
+    /* -webkit-appearance: none; */
+    width: 100%;
+    height: 0.5rem;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .crash-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background: #00a0e4;
+    cursor: pointer;
+  }
+  
+  .crash-slider::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+    background: #00a0e4;
+    cursor: pointer;
+  }
+  
+  .crash-slider-value {
+    margin-top: 0.5rem;
+  }
+  
+  .crash-radio {
+    margin: 0 1rem;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    outline: none;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .crash-radio:checked {
+    background-color: black;
+  }
+  
+  
+  .crash-optionmenu {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .crash-optionmenu:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+  .crash-land {
+    background-color: #576dc2;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 20px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* z-index: 1; */
+  }
+  
+  .crash-land:hover {
+    background-color:  #576cc27a;
+  }
+  
+  .crash-land:active {
+    background-color: #1c2137;
+    transform: translateY(1px);
+  }
+  

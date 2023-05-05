@@ -1,0 +1,72 @@
+.certificate-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  @media(max-width:1000px){
+
+    .certificate-container{
+      height: 100%;
+    }
+
+  }
+  
+  .certificate-badge {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-text h2 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #2c3e50;
+  }
+  
+  .certificate-text p {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #34495e;
+  }
+  
+  .certificate-text strong {
+    color: #2980b9;
+    font-weight: bold;
+  }
+  
+  .certificate-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .certificate-links a {
+    width: 200px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .certificate-links a:hover {
+    background-color: #333;
+    color: #fff;
+  }
