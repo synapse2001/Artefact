@@ -171,7 +171,7 @@ const Leaderboard = ({ user }) => {
       <canvas id="leaderboard-chart"></canvas>
     </div>
     <div className="pie-chart-container">
-      <h2 class="chart-title">Level</h2>
+      <h2 class="chart-title">No. of Users by thier current Level</h2>
       <canvas id="level-chart"></canvas>
     </div>
   </div>
