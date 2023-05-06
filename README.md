@@ -369,11 +369,11 @@ Database Structure Used
 - #### Node installation on Windows
 
     $ winget install node
-<br>
-    or go on [official Node.js website](https://nodejs.org/) and download the installer.
-    Also, be sure to have `git` available in your PATH.
 
-- #### Node installation on Ubuntu
+- or go on [official Node.js website](https://nodejs.org/) and download the installer.
+ Also, be sure to have `git` available in your PATH.
+
+- #### Node installation on Linux
 
   You can install nodejs and npm easily with apt install, just run the following commands.
 
