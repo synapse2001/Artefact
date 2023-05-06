@@ -32,6 +32,7 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 <br>
 
 ## Flow Chart Markdown
+<p
 ```mermaid
 graph LR
 A[Stage 1] --> B[Stage 2]
@@ -41,7 +42,7 @@ D --> E[Stage 5]
 E --> F[Reward]
 B --> G[Dead End]
 C --> H[Dead End]
-
+>
 
 
 
