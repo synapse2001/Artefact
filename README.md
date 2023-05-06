@@ -10,6 +10,90 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 </p>
 <br>
 
+<!-- <> -->
+- [Artefact](#artefact)
+  * [Game Features](#game-features)
+  * [Flow Chart Markdown](#flow-chart-markdown)
+    + [Player and Analytics](#player-and-analytics)
+  * [Authentication](#authentication)
+  * [Authorization and Security](#authorization-and-security)
+- [Screen Shots](#screen-shots)
+- [Structure of the game](#structure-of-the-game)
+  * [General Instructions for the game are as follows:](#general-instructions-for-the-game-are-as-follows-)
+- [Stage 1: Ready for Takeoff](#stage-1--ready-for-takeoff)
+  * [Soft skills tested:](#soft-skills-tested-)
+  * [Dead end: 0](#dead-end--0)
+  * [Clues:](#clues-)
+  * [Story](#story)
+  * [Puzzle](#puzzle)
+  * [Solution](#solution)
+  * [Motive](#motive)
+- [Stage 2: Save the Souls](#stage-2--save-the-souls)
+  * [Soft skills tested:](#soft-skills-tested--1)
+  * [Clues:](#clues--1)
+  * [Story](#story-1)
+  * [Puzzle](#puzzle-1)
+  * [Dead end: 1](#dead-end--1)
+  * [Solution](#solution-1)
+  * [Motive](#motive-1)
+- [Stage 3: The Numble Game](#stage-3--the-numble-game)
+  * [Soft skills tested:](#soft-skills-tested--2)
+  * [Clues:](#clues--2)
+  * [Story](#story-2)
+  * [Puzzle](#puzzle-2)
+  * [Dead end: 1](#dead-end--1-1)
+  * [Solution](#solution-2)
+  * [Motive](#motive-2)
+- [Stage 4: The lost Artefact](#stage-4--the-lost-artefact)
+  * [Soft skills tested:](#soft-skills-tested--3)
+  * [Clues:](#clues--3)
+  * [Story](#story-3)
+  * [Puzzle](#puzzle-3)
+  * [Solution](#solution-3)
+  * [Motive](#motive-3)
+- [Stage 5: The Flying Enigma](#stage-5--the-flying-enigma)
+  * [Soft skills tested:](#soft-skills-tested--4)
+  * [Clues:](#clues--4)
+  * [Story](#story-4)
+  * [Puzzle](#puzzle-4)
+  * [Solution](#solution-4)
+  * [Motive](#motive-4)
+- [Tech stack:](#tech-stack-)
+  * [Frontend](#frontend)
+  * [Backend](#backend)
+  * [Database and Authentication](#database-and-authentication)
+  * [Hosting](#hosting)
+- [Project Set-up](#project-set-up)
+  * [Install Node](#install-node)
+      - [Node installation on Windows](#node-installation-on-windows)
+      - [Node installation on Ubuntu](#node-installation-on-ubuntu)
+  * [Install Project through CLI](#install-project-through-cli)
+  * [Configure Project](#configure-project)
+    + [Install The dependencies](#install-the-dependencies)
+- [Credits](#credits)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <> -->
+
 ## Game Features
 
 - [x] 5 stages of game
