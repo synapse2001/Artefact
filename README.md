@@ -4,6 +4,8 @@
     <img src="./public/artefact.png" alt="" width=500>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
+Fly High and Dive Deep into Adventure.
+Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
 </p>
 
 ## Game Features
