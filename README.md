@@ -92,25 +92,25 @@ Only logged in users can:
 # Screen Shots
 
 <p align="left">
-        <img src="./src/assets/ss1.png" alt="" >
-        <br>
         Sign Up Page<hr>
-        <br><br>
-        <img src="./src/assets/sin.png" alt="" >
         <br>
+        <img src="./src/assets/ss1.png" alt="" >
+        <br><br>
         Login Page<hr>
+        <br>
+        <img src="./src/assets/sin.png" alt="" >
         <br><br>
+         Admin Panel and LeaderBoard<hr>
+         <br>
         <img src="./src/assets/admin-panel.png" alt="" >
-        <br>
-        Admin Panel and LeaderBoard<hr>
         <br><br>
+         Player Analytics Graph<hr>
+          <br>
         <img src="./src/assets/chart.png" alt="" >
-        <br>
-        Player Analytics Graph<hr>
         <br><br>
+         Wing Master Certificate<hr>
+         <br>
         <img src="./src/assets/result.png" alt="" >
-        <br>
-        Wing Master Certificate<hr>
 </p>
 
 
