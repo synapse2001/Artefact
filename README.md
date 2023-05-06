@@ -131,7 +131,7 @@ The Image of a cockpit and the player has to use his critical thinking skills an
 ## Solution
 
 <details> 
-  <summary> Solution below, click to view ? </summary>
+  <summary> Click to view ? </summary>
   Click on The Throttle
 </details>
 
@@ -176,7 +176,7 @@ Set the Flaps Level, choose the APU state and choose where to land, clocks ticki
 ## Solution
 
 <details> 
-  <summary>Solution below, click to see? </summary>
+  <summary> Click to see? </summary>
   Set Flaps: 2, APU: on, Land : Hudson River  
 </details>
 
@@ -217,7 +217,7 @@ There are multiple answer incorporated in this level, if the player answers othe
 
 ## Solution
 <details> 
-  <summary>Solution below, click to see? </summary>
+  <summary> Click to see? </summary>
             X-15 
 </details>
 
@@ -249,7 +249,7 @@ The lost Artefact, the plane that was never found, the greatest mystery of all t
 
 ## Solution
 <details> 
-  <summary>Solution below, click to see? </summary>
+  <summary> Click to see? </summary>
   MH370  
 </details>
 
@@ -288,7 +288,10 @@ The final showdown, answer the riddle with full answer to get your reward.
 
 ## Solution
 
-Northrop Grumman B-2 Spirit
+<details> 
+  <summary> Click to see? </summary>
+ Northrop Grumman B-2 Spirit
+</details>
 
 ## Motive
 
