@@ -9,7 +9,8 @@ Fly High and Dive Deep into Adventure.
 Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
 </p>
 <br>
-#Table
+
+##Table
 <!-- <> -->
     * [Game Features](#game-features)
     * [Flow Chart Markdown](#flow-chart-markdown)
