@@ -31,6 +31,20 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
     2. Second on stage 3:  The Numble Game
 <br>
 
+## Flow Chart Markdown
+```mermaid
+graph LR
+A[Stage 1] --> B[Stage 2]
+B --> C[Stage 3]
+C --> D[Stage 4]
+D --> E[Stage 5]
+E --> F[Reward]
+B --> G[Dead End]
+C --> H[Dead End]
+G --> A
+H --> A
+```
+
 ### Player and Analytics
 - User leader board
 - Admin Panel
@@ -375,16 +389,6 @@ replace the credentials at the necessary locations, as this project utilizes Fir
 - Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
 - Images and Graphics: https://www.freepik.com/
 
-```mermaid
-graph LR
-A[Stage 1] --> B[Stage 2]
-B --> C[Stage 3]
-C --> D[Stage 4]
-D --> E[Stage 5]
-E --> F[Reward]
-B --> G[Dead End]
-C --> H[Dead End]
-G --> A
-H --> A
+
 
 
