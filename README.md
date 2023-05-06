@@ -340,7 +340,7 @@ The stage test the curiosity of the user and testing player patience to extreme.
 # Tech Stack:
 
 ## Frontend
-![reactjs-ar21](https://user-images.githubusercontent.com/73771646/236629784-d4202c46-9bc8-4dae-96a2-a9210ced1b2c.png)
+<img src="https://user-images.githubusercontent.com/73771646/236629784-d4202c46-9bc8-4dae-96a2-a9210ced1b2c.png" alt="ReactJS" width="200" height="90">
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -352,9 +352,7 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 ## Backend
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
-<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" width="200" height="50">
-
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Database and Authentication
 <img src="https://user-images.githubusercontent.com/73771646/236628352-f54fc104-86de-46dc-8a51-809aed479555.jpg" alt="firebase-logo" width="150" height="50">
