@@ -66,7 +66,7 @@ Only logged in users can:
         <br>
         Admin Panel and LeaderBoard<hr>
         <br><br>
-        <img src="./src/assets/admin-panel.png" alt="" >
+        <img src="./src/assets/analytics.png" alt="" >
         <br>
         Player Analytics Graph<hr>
         <br><br>
