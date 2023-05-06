@@ -29,6 +29,8 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 - [x] Dead Ends
     1. First on stage 2:  Save the Souls
     2. Second on stage 3:  The Numble Game
+<br>
+<p align="left">
 <img src="./src/assets/deadend.png" alt="" width=500> </p>
     
 ### Player and Analytics
