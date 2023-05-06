@@ -22,11 +22,11 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     5. Eye for Detail
     6. Logical reasoning
     7. Lateral Thinking
-- [x] 2 dead Ends
     <p align="left">
+- Dead Ends
     <img src="./src/assets/deadend.png" alt="" width=200> </p>
-    1. First on stage 2: Save the Souls
-    2. Second on stage 3: The Numble Game
+    - First on stage 2: Save the Souls
+    - Second on stage 3: The Numble Game
     
 ### Player and Analytics
 - User leader board
@@ -55,23 +55,23 @@ Only logged in users can:
 <p align="left">
         <img src="./src/assets/ss1.png" alt="" width=700>
         <br>
-        ###Sign Up Page
+        ##Sign Up Page
         <br><br>
-        <img src="./public/assets/sin.png" alt="" width=700>
+        <img src="./src/assets/sin.png" alt="" width=700>
         <br>
-        ###Login Page
+        ##Login Page
         <br><br>
-        <img src="./public/assets/admin-panel.png" alt="" width=700>
+        <img src="./src/assets/admin-panel.png" alt="" width=700>
         <br>
-        ###Admin Panel and LeaderBoard
+        ##Admin Panel and LeaderBoard
         <br><br>
-        <img src="./public/assets/analytics.png" alt="" width=700>
+        <img src="./src/assets/analytics.png" alt="" width=700>
         <br>
-        ###Player Analytics Graph
+        ##Player Analytics Graph
         <br><br>
-        <img src="./public/assets/result.png" alt="" width=700>
+        <img src="./src/assets/result.png" alt="" width=700>
         <br>
-        ###Wing Master Certificate
+        ##Wing Master Certificate
 </p>
 
 
