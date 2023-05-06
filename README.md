@@ -333,7 +333,7 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 # Wing Master Badge
 <hr>
-![cert](https://user-images.githubusercontent.com/73771646/236628523-e46c585e-b469-4895-88bb-ba4b08fa3d06.png)
+<img src="https://user-images.githubusercontent.com/73771646/236628523-e46c585e-b469-4895-88bb-ba4b08fa3d06.png" alt="realtime-logo" width="100" height="50">
 
 # Tech Stack:
 
