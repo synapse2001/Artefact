@@ -33,10 +33,17 @@ const Leaderboard = ({ user }) => {
               email: temp2['userEmail'],
               timeTaken: temp2['timeTaken']['durationMin'],
               name: temp2['userName'],
-              level: temp2['level']
+              level: temp2['level'],
             }
           });
-          setwinners(temp1.sort((a, b) => a.timeTaken - b.timeTaken));
+          setwinners(temp1.sort((a, b) => {
+            // Sort by level first
+            if (a.level !== b.level) {
+              return b.level - a.level;
+            }
+            // If levels are the same, sort by time taken
+            return a.timeTaken - b.timeTaken;
+          }));          
         })
     }
   }, [firebase]);
@@ -148,10 +155,14 @@ const Leaderboard = ({ user }) => {
 
   return (
     <div className="leaderboard-container">
+        <div className="admin-text">
+          Admin Panel
+        </div>
       <h2>Leaderboard</h2>
       <table className="leaderboard-table">
         <thead>
           <tr>
+            <th>Rank</th>
             <th>Name</th>
             <th>Email</th>
             <th>Time Taken (minutes)</th>
@@ -161,6 +172,7 @@ const Leaderboard = ({ user }) => {
         <tbody>
           {winners.map((user, index) => (
             <tr key={index}>
+              <td>{index+1}</td>
               <td>{user.name}</td>
               <td>{user.email}</td>
               <td>{user.timeTaken}</td>
