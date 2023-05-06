@@ -26,10 +26,10 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
     6. Logical reasoning
     7. Lateral Thinking
 <!--     <p align="left"> -->
-- Dead Ends
-    <img src="./src/assets/deadend.png" alt="" width=500> </p>
-    - First on stage 2:  Save the Souls
-    - Second on stage 3:  The Numble Game
+- [x] Dead Ends
+    1. First on stage 2:  Save the Souls
+    2. Second on stage 3:  The Numble Game
+<img src="./src/assets/deadend.png" alt="" width=500> </p>
     
 ### Player and Analytics
 - User leader board
