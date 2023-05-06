@@ -9,6 +9,11 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 </p>
 <br>
 
+<!-- TABLE OF CONTENTS -->
+<!--ts-->
+<!--te-->
+
+
 ## Game Features
 
 - [x] 5 stages of game
