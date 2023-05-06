@@ -12,16 +12,10 @@
 }
 
 .signupbody {
-    /* display: flex; */
-    /* flex-direction: column;
-    justify-content: center; */
-    /* justify-content: center; */
-    /* align-items: center !important; */
     height: 100vh;
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 00%, var(--bgColor2) 100%);
-    /* background-image: url('https://bit.ly/3nFVqJh'); */
+    background-image: url(../assets/bl.png);
     opacity: 0;
-    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
+    animation: 1s ease-out var(--delay) 1 transitionAnimation; 
     animation-fill-mode: forwards;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,11 +77,17 @@
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    background-color: #ffffff00;
+    background-color: #201e1e65;
     box-shadow: 0 0 5px rgb(83, 77, 77);
     color: #ffffff;
   }
   
+.email-font::placeholder{
+  color: #FFF;
+  font-size: 20px;
+  padding-left: 5px;
+  font-weight: bold;
+}
   /* Style the label for the password input */
   /* .signup-page label:last-of-type {
     color: #ffffff;
@@ -105,10 +105,17 @@
     font-family: 'Courier New', Courier, monospace;
     border: none;
     border-radius: 5px;
-    font-size: 18px;
-    background-color: #36446200;
-    box-shadow: 0 0 5px rgb(83, 77, 77);
     color: #ffffff;
+    font-size: 18px;
+    background-color: #201e1e65;
+    box-shadow: 0 0 5px rgb(83, 77, 77);
+  }
+  .signup-page input[type="password"]::placeholder{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+
   }
   
   /* Style the signup button */
@@ -125,7 +132,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: #fff;
-    background-color: #008CBA;
+    background-color: #05a7dd;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
   }

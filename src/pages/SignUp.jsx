@@ -63,7 +63,7 @@ const SignUpPage = () => {
                 </center>
                     <div className="container">
                     <label>Email</label>
-                    <input 
+                    <input className="email-font"
                         onChange={e => setEmail(e.target.value)}
                         value={email}
                         type="email" 

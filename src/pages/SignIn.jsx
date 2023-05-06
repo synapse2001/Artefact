@@ -46,7 +46,7 @@ const SignInPage = () => {
                 </center>
                     <div className="container">
                     <label>Email</label>
-                    <input 
+                    <input className="email-font"
                         onChange={e => setEmail(e.target.value)}
                         value={email}
                         type="email" 
@@ -54,7 +54,7 @@ const SignInPage = () => {
                         placeholder="Enter your Email here"
                         ></input>
                     <label>Password</label>
-                    <input 
+                    <input className="email-font"
                         onChange={e => setPassword(e.target.value)}
                         value={password}
                         type="password" 

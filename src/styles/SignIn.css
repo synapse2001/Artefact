@@ -14,8 +14,7 @@
     /* justify-content: center; */
     /* align-items: center !important; */
     height: 100vh;
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 00%, var(--bgColor2) 100%);
-    /* background-image: url('https://bit.ly/3nFVqJh'); */
+    background-image: url(../assets/bl.png);
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -67,7 +66,7 @@
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    background-color: #ffffff00;
+    background-color: #201e1e65;
     box-shadow: 0 0 5px rgb(83, 77, 77);
     color: #ffffff;
   }
@@ -90,7 +89,7 @@
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    background-color: #36446200;
+    background-color: #201e1e65;
     box-shadow: 0 0 5px rgb(83, 77, 77);
     color: #ffffff;
   }
@@ -109,7 +108,7 @@
     font-size: 20px;
     font-weight: bold;
     color: #fff;
-    background-color: #008CBA;
+    background-color: #05a7dd;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
   }
