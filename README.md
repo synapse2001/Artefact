@@ -69,12 +69,12 @@ H --> A
 ```
 
 ### Player, Analytics and Insights
-- User leader board
-- Admin Panel
-- Player Analytics and Reward after user finish all levels.
-- Overall and  each Player's analytics in admin panel
-- Palyers can't skip level by changing web adress.
-- Saving user state and level after each stage in databse.
+- [x] User leader board
+- [x] Admin Panel
+- [x] Player Analytics and Reward after user finish all levels.
+- [x] Overall and  each Player's analytics in admin panel
+- [x] Palyers can't skip level by changing web adress.
+- [x] Saving user state and level after each stage in databse.
 
 ## Authentication 
 - [x] Sign in with Google (Oauth) [recommended for better user experience]
