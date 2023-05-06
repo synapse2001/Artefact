@@ -14,6 +14,7 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     3. The Numble Game
     4. The lost Artefact
     5. The Flying Enigma
+
 - [x] Soft skills assessed
     1. Critical Thinking
     2. Decision Making
@@ -22,7 +23,7 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     5. Eye for Detail
     6. Logical reasoning
     7. Lateral Thinking
-    <p align="left">
+<!--     <p align="left"> -->
 - Dead Ends
     <img src="./src/assets/deadend.png" alt="" width=500> </p>
     - First on stage 2:  Save the Souls
