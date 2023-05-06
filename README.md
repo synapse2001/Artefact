@@ -1,70 +1,349 @@
-# Getting Started with Create React App
+# Artefact
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <img src="./public/artefact.png" alt="" width=500>
+<br><br>
+A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
+</p>
 
-## Available Scripts
+## Game Features
 
-In the project directory, you can run:
+- [x] 5 stages of game
+    1. Ready for Takeoff
+    2. Save the Souls
+    3. The Numble Game
+    4. The lost Artefact
+    5. The Flying Enigma
+- [n] Soft skills assessed
+    1. Critical Thinking
+    2. Decision Making
+    3. Patience
+    4. Problem Solving
+    5. Eye for Detail
+    6. Logical reasoning
+    7. Lateral Thinking
+- [x] 2 dead Ends
+    <p align="left">
+    <img src="./src/assets/deadend.png" alt="" width=200> </p>
+    1. First on stage 2: Save the Souls
+    2. Second on stage 3: The Numble Game
+    
+### Player and Analytics
+- User leader board
+- Admin Panel
+- Player Analytics and Reward after user finish all levels.
+- Overall and  each Player's analytics in admin panel
+- No free Navigation between levels
+    - To prevent player from skipping levels
+- Saving user state and level after each stage in databse.
 
-### `npm start`
+## Authentication 
+- [x] Sign in with Google (Oauth) [recommended for better user experience]
+- [x] User Sign up
+- [x] User Sign in
+- [x] admin login
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Authorization and Security
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Only logged in users can:
+- [x] Play game
+- [x] Access player analysis
+- [x] Only admin can access Admin Panel
 
-### `npm test`
+# Screen Shots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="left">
+        <img src="./src/assets/ss1.png" alt="" width=700>
+        <br>
+        ###Sign Up Page
+        <br><br>
+        <img src="./public/assets/sin.png" alt="" width=700>
+        <br>
+        ###Login Page
+        <br><br>
+        <img src="./public/assets/admin-panel.png" alt="" width=700>
+        <br>
+        ###Admin Panel and LeaderBoard
+        <br><br>
+        <img src="./public/assets/analytics.png" alt="" width=700>
+        <br>
+        ###Player Analytics Graph
+        <br><br>
+        <img src="./public/assets/result.png" alt="" width=700>
+        <br>
+        ###Wing Master Certificate
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Structure of the game
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The game has develoved to asses user's soft skill while providing an immersive experience.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## General Instructions for the game are as follows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- I recommended to sign in with google for a better user experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- I recommend completing all stages in one session, as scores are populated on levels and time taken. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Stages are incremented and Time Taken is saved in the daatabse.
 
-## Learn More
+- You can always start where you left off.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Read the instructions on each levels carefully as they are clues to take you forward.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- If you hit a deadend, you can always choose to play again.
 
-### Code Splitting
+# Stage 1: Ready for Takeoff
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Soft skills tested: 
 
-### Analyzing the Bundle Size
+- Critical Thinking
+- Eye For Detail
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Dead end: 0
 
-### Making a Progressive Web App
+## Clues: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    - The image showcase a cockpit view and you are the pilot in command.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Story
+```
+You are a US Airways Flight 1549 pilot, and ATC clears for takeoff.
+```
 
-### Deployment
+## Puzzle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The Image of a cockpit and the player has to use his critical thinking skills and fly the pkane.
 
-### `npm run build` fails to minify
+## Solution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<details> 
+  <summary> Solution below, click to view ? </summary>
+  Click on The Throttle
+</details>
+
+## Motive
+
+This stage aims to give players a head start and take them on a thrilling journey of treasure hunting.  
+
+<br>
+
+# Stage 2: Save the Souls
+
+## Soft skills tested: 
+
+- Decision Making
+- Eye for Detail
+- Problem Solving
+- Memory
+
+
+
+## Clues: 
+
+You are given a extrnal link, you need to look to clues in the video.
+
+## Story
+```
+You lost your Engines Mid flight, and the plane is losing altitude with 155 onboard, you are captain flying.  
+```
+
+## Puzzle
+
+Set the Flaps Level, choose the APU state and choose where to land, clocks tickin' !
+
+## Dead end: 1
+
+- If the player choose a different answer, the plane suffer a fatal crash, Hence Deadend.
+
+## Solution
+
+<details> 
+  <summary>Solution below, click to see? </summary>
+  Set Flaps: 2, APU: on, Land : Hudson River  
+</details>
+
+## Motive
+
+This stage is design to assess memory and decision making skills.
+
+<br>
+
+# Stage 3: The Numble Game
+
+## Soft skills tested:
+
+- Logical Reasoning
+- Lateral Thinking
+
+
+## Clues: 
+- You are given a riddle and you can also make intelligent guess, if you are right the input fields are green.
+
+## Story
+
+```
+It's a plane a relic of the past, faster than sound, somehow related to the first man on the moon. 
+```
+
+## Puzzle
+
+Solve the Numble Puzzle based on the clue and intellingent guess.
+
+## Dead end: 1
+
+There are multiple answer incorporated in this level, if the player answers otherwise, leads to a deadend.
+
+## Solution
+<details> 
+  <summary>Solution below, click to see? </summary>
+            X-15 
+</details>
+
+## Motive
+The stage tests user of thier knowledge of niche things and asses the logical comprehension. 
+
+
+# Stage 4: The lost Artefact
+
+## Soft skills tested: 
+- Coprehension
+- Auditory 
+
+## Clues: 
+    The audio is your clue.
+    
+## Story
+
+```
+The lost Artefact, the plane that was never found, the greatest mystery of all times. 
+```
+
+## Puzzle
+    You need to listen to the audio and answer correctly.
+
+## Solution
+<details> 
+  <summary>Solution below, click to see? </summary>
+  MH370  
+</details>
+
+## Motive
+
+The satge is to test user compreshension and Auditory Skills.
+
+<br>
+
+# Stage 5: The Flying Enigma
+
+## Soft skills tested: 
+
+- Eye for Detail
+- Lateral Thinking
+- Lateral Thinking
+
+
+## Clues: 
+
+- As the name suggests "The flying Enima", the picture and riddle is your clue.  
+
+## Story
+
+```
+It a behemoth yet stealth, fearing the enemy, and one of the great Enigma.
+```
+
+## Puzzle
+
+The final showdown, answer the riddle with full answer to get your reward. 
+
+## Solution
+
+Northrop Grumman B-2 Spirit
+
+## Motive
+
+The stage test the curiosity of the user and testing player patience to extreme. 
+
+<br>
+
+# Tech stack:
+
+## Frontend
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## Backend
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+
+## Database and Authentication
+
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+
+
+## Hosting 
+
+![vercel-logo-freelogovectors net](https://user-images.githubusercontent.com/73771646/236617770-476657d1-27d9-45f4-9e12-c3918997cb9d.jpg)
+
+
+# Project Set-up
+## Install Node
+- #### Node installation on Windows
+
+    $ winget install node
+<br>
+    or go on [official Node.js website](https://nodejs.org/) and download the installer.
+    Also, be sure to have `git` available in your PATH.
+
+- #### Node installation on Ubuntu
+
+  You can install nodejs and npm easily with apt install, just run the following commands.
+
+      $ sudo apt install nodejs
+      $ sudo apt install npm
+
+## Install Project through CLI
+
+    $ git clone https://github.com/synapse2001/Artefact
+    $ cd artefact
+    $ npm install
+
+## Configure Project
+
+To set up this project for yourself, you will need to create a project on Firebase and 
+replace the credentials at the necessary locations, as this project utilizes Firebase technology.
+
+### Install The dependencies
+
+    $ npm install firebase
+
+    $ npm install -D tailwindcss
+
+    $ npx tailwindcss init
+
+    $ npm install react-icons
+
+    $ npm i node-sass
+
+    $ npm install saas
+    
+    $ npm install chart.js
+
+<br>
+
+# Credits
+- Sully Movie: https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
+- Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
+- Images and Graphics: https://www.freepik.com/
