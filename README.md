@@ -14,7 +14,7 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     3. The Numble Game
     4. The lost Artefact
     5. The Flying Enigma
-- [n] Soft skills assessed
+- [N] Soft skills assessed
     1. Critical Thinking
     2. Decision Making
     3. Patience
