@@ -101,6 +101,11 @@ Only logged in users can:
 - If you hit a deadend, you can always choose to play again.
 
 # Stage 1: Ready for Takeoff
+<hr>
+<p align="center">
+        <img src="./src/assets/stage1.png" alt="" >
+    </p>
+
 
 ## Soft skills tested: 
 
@@ -137,6 +142,10 @@ This stage aims to give players a head start and take them on a thrilling journe
 <br>
 
 # Stage 2: Save the Souls
+<hr>
+<p align="center">
+        <img src="./src/assets/stage2.png" alt="" >
+    </p>
 
 ## Soft skills tested: 
 
@@ -178,6 +187,10 @@ This stage is design to assess memory and decision making skills.
 <br>
 
 # Stage 3: The Numble Game
+<hr>
+<p align="center">
+        <img src="./src/assets/stage3.png" alt="" >
+    </p>
 
 ## Soft skills tested:
 
@@ -213,6 +226,10 @@ The stage tests user of thier knowledge of niche things and asses the logical co
 
 
 # Stage 4: The lost Artefact
+<hr>
+<p align="center">
+        <img src="./src/assets/stage4.gif" alt="" >
+    </p>
 
 ## Soft skills tested: 
 - Coprehension
@@ -243,6 +260,10 @@ The satge is to test user compreshension and Auditory Skills.
 <br>
 
 # Stage 5: The Flying Enigma
+<hr>
+<p align="center">
+        <img src="./src/assets/stage5.png" alt="" >
+    </p>
 
 ## Soft skills tested: 
 
