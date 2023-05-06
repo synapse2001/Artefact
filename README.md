@@ -5,7 +5,7 @@
     <img src="./public/artefact.png" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
-Fly High and Dive Deep into Adventure.
+Fly High and Dive Deep
 Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
 </p>
 <br>
@@ -66,7 +66,7 @@ G --> A
 H --> A
 ```
 
-### Player and Analytics
+### Player, Analytics and Insights
 - User leader board
 - Admin Panel
 - Player Analytics and Reward after user finish all levels.
@@ -331,7 +331,10 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 <br>
 
-# Tech stack:
+#Wing Master Badge
+![cert](https://user-images.githubusercontent.com/73771646/236628523-e46c585e-b469-4895-88bb-ba4b08fa3d06.png)
+
+# Tech Stack:
 
 ## Frontend
 
@@ -350,8 +353,9 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 
 ## Database and Authentication
-
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![firebase-img](https://user-images.githubusercontent.com/73771646/236628352-f54fc104-86de-46dc-8a51-809aed479555.jpg)
+### Database Structure Used
+![image](https://user-images.githubusercontent.com/73771646/236628458-21cac1a5-72df-4b98-b49a-fa653b46a1dc.png)
 
 
 ## Hosting 
@@ -405,7 +409,7 @@ replace the credentials at the necessary locations, as this project utilizes Fir
 <br>
 
 # Credits
-- Sully Movie: https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
+- Sully Movie Scene : https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
 - Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
 - Images and Graphics: https://www.freepik.com/
 
