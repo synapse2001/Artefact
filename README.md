@@ -11,7 +11,6 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 <br>
 
 <!-- <> -->
-<p>TABLE OF CONTENTS</p>
 * [Game Features](#game-features)
 * [Flow Chart Markdown](#flow-chart-markdown)
 * [Player and Analytics](#player-and-analytics)
