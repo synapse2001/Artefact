@@ -5,7 +5,7 @@
     <img src="./public/artefact.png" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
-Fly High and Dive Deep into Adventure.
+Fly High and Dive Deep
 Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
 </p>
 <br>
@@ -19,13 +19,14 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 * [Authorization and Security](#authorization-and-security)
 * [Screen Shots](#screen-shots)
 * [Structure of the game](#structure-of-the-game)
-* [General Instructions for the game are as follows:](#general-instructions-for-the-game-are-as-follows)
+* [General Instructions for the game](#general-instructions-for-the-game-are-as-follows)
 * [Stage 1: Ready for Takeoff](#stage-1-ready-for-takeoff)
 * [Stage 2: Save the Souls](#stage-2-save-the-souls)
 * [Stage 3: The Numble Game](#stage-3-the-numble-game)
 * [Stage 4: The lost Artefact](#stage-4-the-lost-artefact)
 * [Stage 5: The Flying Enigma](#stage-5-the-flying-enigma)
-* [Tech stack:](#tech-stack)
+* [Wing Master Badge](#wing-master-badge)
+* [Tech stack](#tech-stack)
 * [Project Set-up](#project-set-up)
 * [Credits](#credits)
 <!-- <> -->
@@ -46,6 +47,7 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
     5. Eye for Detail
     6. Logical reasoning
     7. Lateral Thinking
+    8. Auditory
 <!--     <p align="left"> -->
 - [x] Dead Ends
     1. First on stage 2:  Save the Souls
@@ -66,13 +68,13 @@ G --> A
 H --> A
 ```
 
-### Player and Analytics
-- User leader board
-- Admin Panel
-- Player Analytics and Reward after user finish all levels.
-- Overall and  each Player's analytics in admin panel
-- Palyers can't skip level by changing web adress.
-- Saving user state and level after each stage in databse.
+### Player, Analytics and Insights
+- [x] User leader board
+- [x] Admin Panel
+- [x] Player Analytics and Reward after user finish all levels.
+- [x] Overall and  each Player's analytics in admin panel
+- [x] Palyers can't skip level by changing web adress.
+- [x] Saving user state and level after each stage in databse.
 
 ## Authentication 
 - [x] Sign in with Google (Oauth) [recommended for better user experience]
@@ -250,7 +252,7 @@ There are multiple answer incorporated in this level, if the player answers othe
 ## Solution
 <details> 
   <summary> Click to see? </summary>
-            X-15 
+            X-15, (X-43 to deadend)
 </details>
 
 ## Motive
@@ -264,7 +266,7 @@ The stage tests user of thier knowledge of niche things and asses the logical co
     </p>
 
 ## Soft skills tested: 
-- Coprehension
+- Comprehension
 - Auditory 
 
 ## Clues: 
@@ -301,8 +303,6 @@ The satge is to test user compreshension and Auditory Skills.
 
 - Eye for Detail
 - Lateral Thinking
-- Lateral Thinking
-
 
 ## Clues: 
 
@@ -331,9 +331,14 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 <br>
 
-# Tech stack:
+# Wing Master Badge
+<hr>
+<img src="https://user-images.githubusercontent.com/73771646/236628523-e46c585e-b469-4895-88bb-ba4b08fa3d06.png" alt="badge">
+
+# Tech Stack:
 
 ## Frontend
+<img src="https://user-images.githubusercontent.com/73771646/236629784-d4202c46-9bc8-4dae-96a2-a9210ced1b2c.png" alt="ReactJS" width="200" height="90">
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -345,14 +350,14 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 ## Backend
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-
 ## Database and Authentication
-
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-
+<img src="https://user-images.githubusercontent.com/73771646/236628352-f54fc104-86de-46dc-8a51-809aed479555.jpg" alt="firebase-logo" width="150" height="50">
+<img src="https://user-images.githubusercontent.com/73771646/236628740-0dba78ca-a78b-43d3-8fbb-93ea144f57f2.png" alt="realtime-logo" width="150" height="50">
+Database Structure Used
+<br>
+<img src="https://user-images.githubusercontent.com/73771646/236628458-21cac1a5-72df-4b98-b49a-fa653b46a1dc.png" alt="realtime-logo">
 
 ## Hosting 
 
@@ -405,7 +410,7 @@ replace the credentials at the necessary locations, as this project utilizes Fir
 <br>
 
 # Credits
-- Sully Movie: https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
+- Sully Movie Scene : https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
 - Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
 - Images and Graphics: https://www.freepik.com/
 
