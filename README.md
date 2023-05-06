@@ -14,7 +14,7 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     3. The Numble Game
     4. The lost Artefact
     5. The Flying Enigma
-- [N] Soft skills assessed
+- [n] Soft skills assessed
     1. Critical Thinking
     2. Decision Making
     3. Patience
@@ -22,11 +22,11 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     5. Eye for Detail
     6. Logical reasoning
     7. Lateral Thinking
-    <p align="left">
+<!--     <p align="left"> -->
 - Dead Ends
-    <img src="./src/assets/deadend.png" alt="" width=200> </p>
-    - First on stage 2: Save the Souls
-    - Second on stage 3: The Numble Game
+    <img src="./src/assets/deadend.png" alt="" width=500> </p>
+    - First on stage 2:  Save the Souls
+    - Second on stage 3:  The Numble Game
     
 ### Player and Analytics
 - User leader board
@@ -53,25 +53,25 @@ Only logged in users can:
 # Screen Shots
 
 <p align="left">
-        <img src="./src/assets/ss1.png" alt="" width=700>
+        <img src="./src/assets/ss1.png" alt="" >
         <br>
-        ##Sign Up Page
+        Sign Up Page<hr>
         <br><br>
-        <img src="./src/assets/sin.png" alt="" width=700>
+        <img src="./src/assets/sin.png" alt="" >
         <br>
-        ##Login Page
+        Login Page<hr>
         <br><br>
-        <img src="./src/assets/admin-panel.png" alt="" width=700>
+        <img src="./src/assets/admin-panel.png" alt="" >
         <br>
-        ##Admin Panel and LeaderBoard
+        Admin Panel and LeaderBoard<hr>
         <br><br>
-        <img src="./src/assets/analytics.png" alt="" width=700>
+        <img src="./src/assets/chart.png" alt="" >
         <br>
-        ##Player Analytics Graph
+        Player Analytics Graph<hr>
         <br><br>
-        <img src="./src/assets/result.png" alt="" width=700>
+        <img src="./src/assets/result.png" alt="" >
         <br>
-        ##Wing Master Certificate
+        Wing Master Certificate<hr>
 </p>
 
 
