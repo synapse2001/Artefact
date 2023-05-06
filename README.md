@@ -25,8 +25,8 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     <p align="left">
 - Dead Ends
     <img src="./src/assets/deadend.png" alt="" width=500> </p>
-    - First on stage 2: Save the Souls
-    - Second on stage 3: The Numble Game
+    - First on stage 2:  Save the Souls
+    - Second on stage 3:  The Numble Game
     
 ### Player and Analytics
 - User leader board
