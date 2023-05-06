@@ -1,371 +1,272 @@
 # Artefact
 
 <p align="center">
-    <img src="./public/artefact.png" alt="" width=700>
+    <img src="./public/artefact.png" alt="" width=500>
 <br><br>
-    An innovative experience that blends the thrill of a treasure hunt with the power of storytelling and puzzles to provide a one-of-a-kind soft skills assessment experience.
+A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
 </p>
 
-
-
-# Features
-
-Listed below are all the feature included in the project
-
-## Game Feature
+## Game Features
 
 - [x] 5 stages of game
-    1. Octet lock
-    2. Odd Drawers
-    3. Atomic shell
-    4. Quartz Quary
-    5. Mindful Molecules
-- [x] 8 soft skills assessed
+    1. Ready for Takeoff
+    2. Save the Souls
+    3. The Numble Game
+    4. The lost Artefact
+    5. The Flying Enigma
+- [n] Soft skills assessed
     1. Critical Thinking
-    2. Memory
+    2. Decision Making
     3. Patience
-    4. Focus
-    5. Stress Management
-    6. Problem Solving
-    7. Eye for Detail
-    8. Emotional Intelligence
-- [x] 2 dead ends
-    1. First on stage 4: Quartz Quary
-    2. Second on stage 5: Mindful Molecules
-- [x] 7 clues
-- [x] User leader board
-- [x] Admin Panel
-- [x] User analytics after game ends
-- [x] Overall and each user's analytical in admin panel
-- [x] 404 page (route not present error)
-- [x] 403 page (insufficient authorization)
-- [x] Ability to review previous stage information if stuck on a certain stage
-- [x] **Skip** to skip a stage by discarding any points rewarded for that level
-- [x] **End game** to end the game if done
+    4. Problem Solving
+    5. Eye for Detail
+    6. Logical reasoning
+    7. Lateral Thinking
+- [x] 2 dead Ends
+    <p align="left">
+    <img src="./src/assets/deadend.png" alt="" width=200> </p>
+    1. First on stage 2: Save the Souls
+    2. Second on stage 3: The Numble Game
+    
+### Player and Analytics
+- User leader board
+- Admin Panel
+- Player Analytics and Reward after user finish all levels.
+- Overall and  each Player's analytics in admin panel
+- No free Navigation between levels
+    - To prevent player from skipping levels
+- Saving user state and level after each stage in databse.
 
-- [x] Automated test with selenium to test feature functionality
-
-## Authentication
-
+## Authentication 
+- [x] Sign in with Google (Oauth) [recommended for better user experience]
 - [x] User Sign up
 - [x] User Sign in
-- [x] Forgot Password (reset password via email)
 - [x] admin login
 
-## Authorization
+## Authorization and Security
 
 Only logged in users can:
 - [x] Play game
-- [x] Access user leader board
-- [x] Access result analysis
+- [x] Access player analysis
 - [x] Only admin can access Admin Panel
 
 # Screen Shots
 
-<p align="center">
-        <img src="./public/assets/readme/login.jpg" alt="" width=700>
+<p align="left">
+        <img src="./src/assets/ss1.png" alt="" width=700>
         <br>
-        Login page
+        ###Sign Up Page
         <br><br>
-        <img src="./public/assets/readme/signup.jpg" alt="" width=700>
+        <img src="./public/assets/sin.png" alt="" width=700>
         <br>
-        signup page
+        ###Login Page
         <br><br>
-        <img src="./public/assets/readme/reset-password.jpg" alt="" width=700>
+        <img src="./public/assets/admin-panel.png" alt="" width=700>
         <br>
-        Reset Password
+        ###Admin Panel and LeaderBoard
         <br><br>
-        <img src="./public/assets/readme/admin-login.jpg" alt="" width=700>
+        <img src="./public/assets/analytics.png" alt="" width=700>
         <br>
-        Admin Login Page
+        ###Player Analytics Graph
         <br><br>
-        <img src="./public/assets/readme/result.jpg" alt="" width=700>
+        <img src="./public/assets/result.png" alt="" width=700>
         <br>
-        Result page
-        <br><br>
-        <img src="./public/assets/readme/result-2.jpg" alt="" width=700>
-        <br>
-        Result page 2
-        <br>
-        <br>
-        <img src="./public/assets/readme/admin.jpg" alt="" width=700>
-        <br>
-        Admin page
-        <br><br>
-        <img src="./public/assets/readme/admin-2.jpg" alt="" width=700>
-        <br>
-        Admin page 2
-        <br><br>
-        <img src="./public/assets/readme/leader-board.jpg" alt="" width=700>
-        <br>
-        leader-board
-        <br><br>
+        ###Wing Master Certificate
 </p>
 
 
-# Detailed view of the game
+# Structure of the game
 
-The project has been developed as a way to test soft skills, thus it is only one time play for every user.
+- The game has develoved to asses user's soft skill while providing an immersive experience.  
 
-## Completion of the game
 
-- The game is meant to test the soft skills, thus keeping user stuck on level forever with no form of rescue is futile.
-
-- To avoid this *Special actions:* **skip** and **End Game**, are available at each stage so user can skip the stage by discarding the points or end the game if required.
 
 ## General Instructions for the game are as follows:
 
-- The purpose of this game set is to evaluate your soft skills
+- I recommended to sign in with google for a better user experience.
 
-- We recommend completing all games in one sitting, as the game is designed to be played only once
+- I recommend completing all stages in one session, as scores are populated on levels and time taken. 
 
-- Points are awarded for correct answers and time taken to solve each game
+- Stages are incremented and Time Taken is saved in the daatabse.
 
-- The timer will not be visible on screen
+- You can always start where you left off.
 
-- In the event of an emergency such as a power outage, technical difficulties, or network issues, you may resume the game from where you left off
+- Read the instructions on each levels carefully as they are clues to take you forward.
 
-- Timer will continue on the server but your progress won't be lost
+- If you hit a deadend, you can always choose to play again.
 
-- Please be attentive to all information presented in the game
+# Stage 1: Ready for Takeoff
 
-- If you find yourself at a dead end, you can choose to review the previous stage, which may provide clues to help you progress past the current stage
+## Soft skills tested: 
 
-- If necessary, you have the option to skip a stage, though this will result in forfeiting any potential points for that stage
-
-- You may end the game at any time, regardless of what stage you are on and receive results till there
-
-# Stage 1: Octet Lock
-
-## Soft skills tested: 3
-
-1. Problem Solving
-2. Critical Thinking
-3. Eye For Detail
+- Critical Thinking
+- Eye For Detail
 
 ## Dead end: 0
 
-## Clues: 3
+## Clues: 
 
-The mapping follows the pattern **2, 0, 8, 6,4, 6** and repeats. That is the unit digit of atomic number of noble gases.
+    - The image showcase a cockpit view and you are the pilot in command.
 
-1. Name of the stage is "Octet Lock", octet as in the one in chemistry.
-2. Chemists name is Mr. M. J. **Noble**, Noble for noble gases
-3. Initial pattern is hidden in the story, as numbers that appear, "two product" -> 2, "midnight" is when clock hits -> 0, "minute hand at 8" ->8
 
 ## Story
 ```
-You are an aspiring chemist and the faithful assistant of M.J. Noble, a famous chemist and laboratory owner in the city. On a weekend, both of you were manufacturing two products, but when the clock struck midnight, Mr. Noble suggested going out for drinks, appreciating your hard work. He assured you of coming back and completing his part of the work in an hour.
-
-At the bar, after having dinner and few rounds of drinks, Mr. Noble was not sober anymore. He looked at his watch and realized that the minutes hand was about to hit 8. Hurriedly, he rushed you back to the laboratory, where you found the door locked with puzzle that he himself had put in place to prevent him from touching the chemicals while being drunk.
-
-To unlock the door and complete the ongoing processes, you need to solve the puzzle first ! 
+You are a US Airways Flight 1549 pilot, and ATC clears for takeoff.
 ```
 
 ## Puzzle
 
-Some characters are mapped to another i.e. encrypted to decrypted. Identify the pattern between these mapping and form you own key for the given string.
+The Image of a cockpit and the player has to use his critical thinking skills and fly the pkane.
 
 ## Solution
 
 <details> 
-  <summary>Beware solution below, click to see? </summary>
-  Litmus 
+  <summary> Solution below, click to view ? </summary>
+  Click on The Throttle
 </details>
 
 ## Motive
 
-This stage aims to establish the story and characteristics of the agents involved.
-This is base test to assess problem solving and feed user details that will come in handy in later stages that if ignored will lead to possible dead ends.
+This stage aims to give players a head start and take them on a thrilling journey of treasure hunting.  
 
 <br>
 
-# Stage 2: Odd Drawer
+# Stage 2: Save the Souls
 
-## Soft skills tested: 2
+## Soft skills tested: 
 
-1. Problem Solving
-2. Memory
+- Decision Making
+- Eye for Detail
+- Problem Solving
+- Memory
 
-## Dead end: 0
 
-## Clues: 2
 
-In the note presented in this stage story, two clues are hidden that are used to set premise of chemist being a recovering alcoholic.
-Since existence of this note points to this being a recurring event.
+## Clues: 
 
-**Note by chemist:**
-
-1. No experimenting with new formulas tonight!
-2. Don't listen to what you've consumed, you can recover 
+You are given a extrnal link, you need to look to clues in the video.
 
 ## Story
 ```
-After unlocking the door, Mr. Noble hurried towards a drawer and disrupted some test tubes containing chemicals. Maintaining the order of chemicals is critical to complete the process.
-To prevent your competitors from using the formula, you did not write down the order, but you have a set of instructions saved with you to help you achieve the correct order.
-
-In midst of this chaos, you found a note that Mr. Noble wrote for his himself:
-
-1. Don't touch the chemicals, especially the green one!
-2. Remember, the order matters! Don't mess it up
-3. No experimenting with new formulas tonight!
-4. Don't listen to what you've consumed, you can recover
-5. Don't confuse the red and blue beakers, they look similar
-
-Follow the given instructions and figure out the correct order. 
+You lost your Engines Mid flight, and the plane is losing altitude with 155 onboard, you are captain flying.  
 ```
 
 ## Puzzle
 
-Arrange the test tubes filled with different chemical in the order mentioned in the game section.
+Set the Flaps Level, choose the APU state and choose where to land, clocks tickin' !
+
+## Dead end: 1
+
+- If the player choose a different answer, the plane suffer a fatal crash, Hence Deadend.
 
 ## Solution
 
 <details> 
-  <summary>Beware solution below, click to see? </summary>
-  HNO3,HCl,HBr,H2S,H2O,HI,HF,NaOH,H2SO4 
+  <summary>Solution below, click to see? </summary>
+  Set Flaps: 2, APU: on, Land : Hudson River  
 </details>
 
 ## Motive
 
-This stage is design to assess memory and deduction skills of the user.
+This stage is design to assess memory and decision making skills.
 
 <br>
 
-# Stage 3: Atomic Shell
+# Stage 3: The Numble Game
 
-## Soft skills tested: 2
+## Soft skills tested:
 
-1. Patience
-2. Focus
+- Logical Reasoning
+- Lateral Thinking
 
-## Dead end: 0
 
-## Clues: 1
-
-1. The story mentions a satisfactory score, never a exact number.
+## Clues: 
+- You are given a riddle and you can also make intelligent guess, if you are right the input fields are green.
 
 ## Story
 
 ```
-While intoxicated, the chemist was frenziedly talking about his favorite game, Atomic Shell. 
-He insists that you beat his current high score before he will focus on the task at hand. 
-Play the game and achieve a satisfactory score to regain his attention. 
+It's a plane a relic of the past, faster than sound, somehow related to the first man on the moon. 
 ```
 
 ## Puzzle
 
-Comprehend the story accurately and make decision about at what score should you leave.
-
-## Solution
-
-Submitting whenever is fine, early is better.
-
-## Motive
-The story mentions a satisfactory score, never a exact number, thus submitting at any point is okay. 
-This can only be comprehended if user if focused.
-
-
-# Stage 4: Quartz Quary
-
-## Soft skills tested: 4
-
-1. Memory
-2. Stress Management
-3. Focus
-4. Patience
+Solve the Numble Puzzle based on the clue and intellingent guess.
 
 ## Dead end: 1
 
-- The value that appears on the face of minerals follows the octet sequence seen in game 1.
-- If user is stuck here, they will have to move back to round one info
-- This action will cost time for the user and thus affect points negatively.
+There are multiple answer incorporated in this level, if the player answers otherwise, leads to a deadend.
 
-## Clues: 0
+## Solution
+<details> 
+  <summary>Solution below, click to see? </summary>
+            X-15 
+</details>
 
+## Motive
+The stage tests user of thier knowledge of niche things and asses the logical comprehension. 
+
+
+# Stage 4: The lost Artefact
+
+## Soft skills tested: 
+- Coprehension
+- Auditory 
+
+## Clues: 
+    The audio is your clue.
+    
 ## Story
 
 ```
-Having finally beaten the chemist's high score, you successfully persuaded him to refocus on the task at hand. 
-The next step requires combining specific minerals to enhance the purity and quality of the resulting product. 
+The lost Artefact, the plane that was never found, the greatest mystery of all times. 
 ```
 
 ## Puzzle
-
-1. Every appearing mineral has amount/count written on it's face that is the amount of mineral you will gain.
-2. Your current collection amount won't be shown on the screen.
-3. Once you are sure that you have collected the necessary amount, hit
-Collecting more than given amount will result in incorrect attempt.
-4. When Mining, minerals might stick together, beware !
+    You need to listen to the audio and answer correctly.
 
 ## Solution
-
-Focus on collecting one mineral first then move to next
+<details> 
+  <summary>Solution below, click to see? </summary>
+  MH370  
+</details>
 
 ## Motive
 
-The game is designed to put user under stress and then check their focus and short term memory.
+The satge is to test user compreshension and Auditory Skills.
 
 <br>
 
-# Stage 5: Mindful Molecules
+# Stage 5: The Flying Enigma
 
-## Soft skills tested: 2
+## Soft skills tested: 
 
-1. Eye for Detail
-2. Emotional Intelligence
+- Eye for Detail
+- Lateral Thinking
+- Lateral Thinking
 
-## Dead end: 1
 
-- All questions asked here are related to note found in game two.
-- If user is stuck here, they will have to move back to round two info
-- This action will cost time for the user and thus affect points negatively.
+## Clues: 
 
-## Clues: 1
-
-- As the name suggests "Mindful Molecules", use should be mindful of what they answer
+- As the name suggests "The flying Enima", the picture and riddle is your clue.  
 
 ## Story
 
 ```
-Now that the door is unlocked, chemicals are re-arranged, and minerals are collected, 
-it's time to finish what was started.
-
-Facing a dilemma, you need to pause and reflect. 
+It a behemoth yet stealth, fearing the enemy, and one of the great Enigma.
 ```
 
 ## Puzzle
 
-Answer the Questions to best of your knowledge about chemist.
+The final showdown, answer the riddle with full answer to get your reward. 
 
 ## Solution
 
-- Q1: yes
-- Q2: yes
-- Q3: yes
-- Q4: should be same as 8th answer
-- Q5: should be same as 7th answer
-- Q6: no
-- Q7: should be same as 5th answer
-- Q8: should be same as 4th answer
+Northrop Grumman B-2 Spirit
 
 ## Motive
 
-Q1 to Q3 are there to check users attention, others are to assess Emotional Intelligence.
-
-There are 3 methods to check Emotional Intelligence: "self-reporting, other-reporting, and ability testing".
-
-While conducting this game, **Self reporting** is the most suitable method to do so.
-
-Initially we ask some obvious Questions that user should be able to answer easily if they paid attention to story.
-
-This sets up the pace for our crucial questions that are in pair (4 and 8) and (5 and 7).
-
-(4 and 8) asks the Question on whether user trusts chemists decisions. Whether they do or not is up to them but a difference in answer suggests users incapacity to understand their emotion about the chemist.
-
-(5 and 7) asks the Question on sincerity of chemist, 5th Qs asks if going for celebration was a good idea, if user agrees on this then their view on chemist's sincerity should not be conflicted for Q7.
-
-With these Qs we attempting to assess Emotional Intelligence of the user.
+The stage test the curiosity of the user and testing player patience to extreme. 
 
 <br>
 
@@ -386,7 +287,6 @@ With these Qs we attempting to assess Emotional Intelligence of the user.
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
 
 ## Database and Authentication
 
@@ -395,14 +295,17 @@ With these Qs we attempting to assess Emotional Intelligence of the user.
 
 ## Hosting 
 
-![Glitch](https://img.shields.io/badge/glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white)
+![vercel-logo-freelogovectors net](https://user-images.githubusercontent.com/73771646/236617770-476657d1-27d9-45f4-9e12-c3918997cb9d.jpg)
+
 
 # Project Set-up
 ## Install Node
 - #### Node installation on Windows
 
-  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+    $ winget install node
+<br>
+    or go on [official Node.js website](https://nodejs.org/) and download the installer.
+    Also, be sure to have `git` available in your PATH.
 
 - #### Node installation on Ubuntu
 
@@ -411,19 +314,36 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
       $ sudo apt install nodejs
       $ sudo apt install npm
 
-## Install Project
+## Install Project through CLI
 
-    $ git clone https://github.com/jhamadhav/elementalQuests.git
-    $ cd elementalQuests
+    $ git clone https://github.com/synapse2001/Artefact
+    $ cd artefact
     $ npm install
 
 ## Configure Project
 
-This project uses Firebase technology, to configure this project for your self create project on firebase and replace credentials at required locations
+To set up this project for yourself, you will need to create a project on Firebase and 
+replace the credentials at the necessary locations, as this project utilizes Firebase technology.
+
+### Install The dependencies
+
+    $ npm install firebase
+
+    $ npm install -D tailwindcss
+
+    $ npx tailwindcss init
+
+    $ npm install react-icons
+
+    $ npm i node-sass
+
+    $ npm install saas
+    
+    $ npm install chart.js
 
 <br>
 
 # Credits
-- izitoast: https://izitoast.marcelodolza.com/
-- Charts: https://www.highcharts.com
-- Story Images: From [Rick and Morty](https://en.wikipedia.org/wiki/Rick_and_Morty)
+- Sully Movie: https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
+- Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
+- Images and Graphics: https://www.freepik.com/
