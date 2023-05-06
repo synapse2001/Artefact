@@ -36,11 +36,15 @@ function TakeOff() {
       {!showVideo && (
         <div>
             <div className="takeoff-pre-text">
-              <h1>Welcome to Aviation 1O1 <br/>
+              <h1>Stage 1: Ready for Takeoff <br/>
+                  Welcome to Aviation 1O1 <br/>
               You are Pilot in Command <br/>
               <p className="takeoff-instruction">Instruction : <br/>
                You are a US Airways 1549 Pilot <br/>
-               and The ATC clears for take-off
+               and The ATC clears for take-off<br/>
+               Clue:<br/>
+               You need to Fly the PLane !<br/>
+               You have to look around and click somewhere.
               </p>
               </h1>
       

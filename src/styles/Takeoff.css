@@ -1,17 +1,4 @@
 body{
-    /* background-image: url(../assets/takeoff\ -\ Copy.png); */
-    /* background-size: cover; */
-    /* background-position: center;
-    background-size: cover;
-    background-color: black;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%; */
-    /* position: absolute;
-    display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    /* flex-direction: column; */
     overflow-x: hidden;
   }
   .throttle{
@@ -30,7 +17,7 @@ body{
 
 .takeoff-pre-text{
     position: absolute;
-    top: 90px;
+    top: 3.5vh;
     left: 20px;
     width: 100%;
     display: flex;

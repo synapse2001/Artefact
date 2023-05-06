@@ -62,7 +62,7 @@ const Level3 = ({user}) => {
 
     return (
         <div>
-            <div className="level3-pretext"><h1>The Numble Game  
+            <div className="level3-pretext"><h1> Stage 3: The Numble Game  
                     <br />Make a intelligent guess <br/>
                     There are three input fields<br/>
                     If you are right the input turns green<br/>

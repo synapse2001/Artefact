@@ -45,8 +45,10 @@ function Level2() {
         <div className="crash">
             {!showVideo && (
                 <div>
-                    <div className="crash-pre-text"><h1>You have to make a Emergency Descent 
-                    <br />And every second counts<br/>
+                    <div className="crash-pre-text"><h1>
+                        Stage 2: Save The Souls <br/>
+                        You have to make a Emergency Descent <br/>
+                        And every second counts<br/>
                     <p className="level2-instruction">Instruction : <br/>
                         A eye for detail <br/>
                          You need to find clues to land safely<br/>

@@ -50,7 +50,7 @@ return(
     <h1 className="level5text">Congratuation ! <br/>
     You made it this Far<br/> 
     To the Final Showdown<br/>
-    A Riddle away from being a Wing Master<br/>
+    Stage 5: The Flying Enigma <br/>
     </h1>
     <div className="level5-riddle-container">
 
