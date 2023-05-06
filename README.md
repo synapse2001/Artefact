@@ -25,6 +25,7 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 * [Stage 3: The Numble Game](#stage-3-the-numble-game)
 * [Stage 4: The lost Artefact](#stage-4-the-lost-artefact)
 * [Stage 5: The Flying Enigma](#stage-5-the-flying-enigma)
+* [Wing Master Badge](#wing-master-badge)
 * [Tech stack](#tech-stack)
 * [Project Set-up](#project-set-up)
 * [Credits](#credits)
