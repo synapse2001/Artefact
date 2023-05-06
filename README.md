@@ -252,7 +252,7 @@ There are multiple answer incorporated in this level, if the player answers othe
 ## Solution
 <details> 
   <summary> Click to see? </summary>
-            X-15 
+            X-15, (X-43 to deadend)
 </details>
 
 ## Motive
