@@ -7,6 +7,7 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
 Fly High and Dive Deep into Adventure.
 Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
 </p>
+<br>
 
 ## Game Features
 
@@ -16,7 +17,7 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
     3. The Numble Game
     4. The lost Artefact
     5. The Flying Enigma
-- [n] Soft skills assessed
+- [x] Soft skills assessed
     1. Critical Thinking
     2. Decision Making
     3. Patience
