@@ -295,7 +295,7 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 ## Hosting 
 
-<img src="https://user-images.githubusercontent.com/73771646/236617770-476657d1-27d9-45f4-9e12-c3918997cb9d.jpg" alt="vercel-logo" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/73771646/236617770-476657d1-27d9-45f4-9e12-c3918997cb9d.jpg" alt="vercel-logo" width="100" height="50">
 
 
 # Project Set-up
