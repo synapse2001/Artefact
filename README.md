@@ -50,8 +50,7 @@ H --> A
 - Admin Panel
 - Player Analytics and Reward after user finish all levels.
 - Overall and  each Player's analytics in admin panel
-- No free Navigation between levels
-    - To prevent player from skipping levels
+- Palyers can't skip level by changing web adress.
 - Saving user state and level after each stage in databse.
 
 ## Authentication 
