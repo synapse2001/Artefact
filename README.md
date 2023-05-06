@@ -1,10 +1,13 @@
 # Artefact
 
 <p align="center">
-    <img src="./public/artefact.png" alt="" width=500>
+    <img src="./public/artefact.png" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
+Fly High and Dive Deep into Adventure.
+Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
 </p>
+<br>
 
 ## Game Features
 
@@ -23,11 +26,13 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     6. Logical reasoning
     7. Lateral Thinking
 <!--     <p align="left"> -->
-- Dead Ends
-    <img src="./src/assets/deadend.png" alt="" width=500> </p>
-    - First on stage 2:  Save the Souls
-    - Second on stage 3:  The Numble Game
-    
+- [x] Dead Ends
+    1. First on stage 2:  Save the Souls
+    2. Second on stage 3:  The Numble Game
+<br>
+<!-- <p align="left">
+<img src="./src/assets/deadend.png" alt="" width=500> </p>
+     -->
 ### Player and Analytics
 - User leader board
 - Admin Panel
@@ -96,6 +101,11 @@ Only logged in users can:
 - If you hit a deadend, you can always choose to play again.
 
 # Stage 1: Ready for Takeoff
+<hr>
+<p align="center">
+        <img src="./src/assets/stage1.png" alt="" >
+    </p>
+
 
 ## Soft skills tested: 
 
@@ -132,6 +142,10 @@ This stage aims to give players a head start and take them on a thrilling journe
 <br>
 
 # Stage 2: Save the Souls
+<hr>
+<p align="center">
+        <img src="./src/assets/stage2.png" alt="" >
+    </p>
 
 ## Soft skills tested: 
 
@@ -173,6 +187,10 @@ This stage is design to assess memory and decision making skills.
 <br>
 
 # Stage 3: The Numble Game
+<hr>
+<p align="center">
+        <img src="./src/assets/stage3.png" alt="" >
+    </p>
 
 ## Soft skills tested:
 
@@ -208,6 +226,10 @@ The stage tests user of thier knowledge of niche things and asses the logical co
 
 
 # Stage 4: The lost Artefact
+<hr>
+<p align="center">
+        <img src="./src/assets/stage4.gif" alt="" >
+    </p>
 
 ## Soft skills tested: 
 - Coprehension
@@ -238,6 +260,10 @@ The satge is to test user compreshension and Auditory Skills.
 <br>
 
 # Stage 5: The Flying Enigma
+<hr>
+<p align="center">
+        <img src="./src/assets/stage5.png" alt="" >
+    </p>
 
 ## Soft skills tested: 
 
@@ -295,7 +321,7 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 ## Hosting 
 
-![vercel-logo-freelogovectors net](https://user-images.githubusercontent.com/73771646/236617770-476657d1-27d9-45f4-9e12-c3918997cb9d.jpg)
+<img src="https://user-images.githubusercontent.com/73771646/236617770-476657d1-27d9-45f4-9e12-c3918997cb9d.jpg" alt="vercel-logo" width="100" height="50">
 
 
 # Project Set-up
