@@ -24,7 +24,7 @@ A hand crafted immersive treasure hunt game mixed with thrill, surprise and adve
     7. Lateral Thinking
     <p align="left">
 - Dead Ends
-    <img src="./src/assets/deadend.png" alt="" width=200> </p>
+    <img src="./src/assets/deadend.png" alt="" width=500> </p>
     - First on stage 2: Save the Souls
     - Second on stage 3: The Numble Game
     
