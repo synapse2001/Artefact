@@ -62,7 +62,7 @@ const Leaderboard = ({ user }) => {
         datasets: [
           {
             label: 'Score',
-            data: winners.map((user) => 100 / user.timeTaken),
+            data: winners.map((user) => (user.level / user.timeTaken)*50),
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
