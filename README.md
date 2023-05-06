@@ -266,7 +266,7 @@ The stage tests user of thier knowledge of niche things and asses the logical co
     </p>
 
 ## Soft skills tested: 
-- Coprehension
+- Comprehension
 - Auditory 
 
 ## Clues: 
@@ -303,8 +303,6 @@ The satge is to test user compreshension and Auditory Skills.
 
 - Eye for Detail
 - Lateral Thinking
-- Lateral Thinking
-
 
 ## Clues: 
 
