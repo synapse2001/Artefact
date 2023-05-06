@@ -1,7 +1,7 @@
 # Artefact
 
 <p align="center">
-    <img src="./public/artefact.png" alt="" width=500>
+    <img src="./public/artefact.png" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
 Fly High and Dive Deep into Adventure.
@@ -30,9 +30,9 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
     1. First on stage 2:  Save the Souls
     2. Second on stage 3:  The Numble Game
 <br>
-<p align="left">
+<!-- <p align="left">
 <img src="./src/assets/deadend.png" alt="" width=500> </p>
-    
+     -->
 ### Player and Analytics
 - User leader board
 - Admin Panel
