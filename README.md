@@ -62,15 +62,15 @@ Only logged in users can:
         <br>
         Login Page<hr>
         <br><br>
-        <img src="./src/assets/admin-panel.png" alt="" width=700>
+        <img src="./src/assets/admin-panel.png" alt="" >
         <br>
         Admin Panel and LeaderBoard<hr>
         <br><br>
-        <img src="./src/assets/analytics.png" alt="" width=700>
+        <img src="./src/assets/analytics.png" alt="" >
         <br>
         Player Analytics Graph<hr>
         <br><br>
-        <img src="./src/assets/result.png" alt="" width=700>
+        <img src="./src/assets/result.png" alt="" >
         <br>
         Wing Master Certificate<hr>
 </p>
