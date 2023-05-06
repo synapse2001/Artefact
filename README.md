@@ -46,6 +46,7 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
     5. Eye for Detail
     6. Logical reasoning
     7. Lateral Thinking
+    8. Auditory
 <!--     <p align="left"> -->
 - [x] Dead Ends
     1. First on stage 2:  Save the Souls
@@ -333,7 +334,7 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 # Wing Master Badge
 <hr>
-<img src="https://user-images.githubusercontent.com/73771646/236628523-e46c585e-b469-4895-88bb-ba4b08fa3d06.png" alt="realtime-logo" width="100" height="50">
+<img src="https://user-images.githubusercontent.com/73771646/236628523-e46c585e-b469-4895-88bb-ba4b08fa3d06.png" alt="badge">
 
 # Tech Stack:
 
