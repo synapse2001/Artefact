@@ -44,14 +44,6 @@ export const FirebaseProvider = (props) => {
         return update(ref(database, key),data);
     };
 
-    const [podData,setpodData] = useState("");
-
-    // const fetchData = async (key) =>{
-
-    //     await( get(child(ref(database),key))
-    //     .then((snapshot)=>
-    //         setpodData(snapshot.val())));
-    // }/////////////////////////////////// imp
 
     const fetchData = async (key) => {
         const snapshot = await get(child(ref(database), key));
@@ -59,22 +51,7 @@ export const FirebaseProvider = (props) => {
         console.log("data is fetched",snapshot.val());
         return (snapshot.val());
       };
-
-      const fetchPoddata = async () => {
-        const snapshot = await get(child(ref(database), "podcast"));
-        const data = snapshot.val();
-        setpodData(data);
-        console.log("poddata is fetched", data);
-        return data;
-      };
       
-      
- 
-
-    // const fetchData = async (key) =>{
-    //     const snapshot = await get(child(ref(database), key));
-    //     return snapshot.val();
-    //   }
       
 
     const signinUser = (email2, password2) => {
@@ -85,7 +62,7 @@ export const FirebaseProvider = (props) => {
     }
 
     return (
-        <FirebaseContext.Provider value ={{createUser, putData, signinUser,signinwithGoogle,fetchData, podData,fetchPoddata}}>
+        <FirebaseContext.Provider value ={{createUser, putData, signinUser,signinwithGoogle,fetchData}}>
             {props.children}
         </FirebaseContext.Provider>
     )

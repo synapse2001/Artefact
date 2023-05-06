@@ -9,7 +9,7 @@
 
 .level3-pretext{
   position: absolute;
-  top: 90px;
+  top: 50px;
   left: 20px;
   width: 100%;
   display: flex;
@@ -23,7 +23,7 @@
   height: 60%;
   background-color: rgba(0, 0, 0, 0.389);
   border-radius: 10px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-left: 5px;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -39,12 +39,12 @@
 .crossword {
     display: flex;
     padding-top: 100px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 22vh;
-    left: 41vw;
+    left: 50%;
     z-index: 2;
     /* margin-top: 50px; */
   }

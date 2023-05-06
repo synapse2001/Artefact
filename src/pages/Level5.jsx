@@ -17,9 +17,9 @@ const Level5 = ({user}) => {
         firebase.fetchData("answers").then(
             data => {
                 const level5answer = data.level5;
-                console.log(level5answer);
+                // console.log(level5answer);
                 setl5answer(level5answer);
-                console.log(l5answer);
+                // console.log(l5answer);
             }
         )
     }, [firebase]);
@@ -30,7 +30,7 @@ const Level5 = ({user}) => {
         // addToDo(task)
         // alert(l5answer);
         if (answer.toUpperCase() === l5answer) {
-            alert("Suceess");
+            alert("Congratulation You are Now a Certified Aviation Geek !");
             const now = new Date();
             if(user){
             firebase.putData('users' + user.uid, { level : 5,endTime:{now}});
@@ -47,7 +47,11 @@ const Level5 = ({user}) => {
 return(
 
     <div>
-    <h1 className="level5text">Congratuation ! <br/>You made it this Far<br/> To the Final Showdown</h1>
+    <h1 className="level5text">Congratuation ! <br/>
+    You made it this Far<br/> 
+    To the Final Showdown<br/>
+    A Riddle away from being a Wing Master<br/>
+    </h1>
     <div className="level5-riddle-container">
 
     <img className="level5-riddle" src ={riddleimg}>

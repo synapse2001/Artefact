@@ -114,7 +114,7 @@ const TestPage = ({ user }) => {
             addToDo("You are Killing it. Aren't You! ")
             addToDo("Taking you the Next Expedition")
             firebase.putData('users' + user.uid, { level: 4 });
-            setTimeout(() => { return (window.location.href = "/level5"); }, 5000
+            setTimeout(() => { return (window.location.href = "/level5"); }, 3000
             );
 
         } else {
@@ -166,7 +166,7 @@ const TestPage = ({ user }) => {
 
                 <div className="taskinput" id="form">
 
-                    <input onChange={e => setTask(e.target.value)} class="todo-input" value={task} type="text" placeholder="Listen to the Audio."></input>
+                    <input onChange={e => setTask(e.target.value)} class="todo-input" value={task} type="text" placeholder="Listen to the Audio  Clue and Answer."></input>
                     <button onClick={() => checkAnswer(task)} class="todo-btn">I Got This!</button>
                     {/* <button onClick={() => {signOut(auth); window.location.href = "/"}}>Logout</button> */}
 

@@ -25,10 +25,10 @@ const HomePage = ({user,podcastData}) =>{
       firebase.fetchData("users"+ userId)
       .then(data => {
         const resume = data.timestamp['ct'];
-        console.log("resume",resume);
+        // console.log("resume",resume);
         audioElem.current.currentTime = resume;
-        console.log("hellll no",data);
-        console.log(data.timestamp['ct']); // logs the data returned by fetchData
+        // console.log("hellll no",data);
+        // console.log(data.timestamp['ct']); // logs the data returned by fetchData
       })
       .catch(error => {
         console.log(error); // logs any errors that occur

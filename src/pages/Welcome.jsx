@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { useFirebase } from "../context/firebase";
+import { useFirebase,auth } from "../context/firebase";
 import Chart from 'chart.js/auto';
 import "../styles/Leaderboard.css"
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { signOut } from "firebase/auth";
 
 const Leaderboard = ({ user }) => {
   const [winners, setwinners] = useState([]);
   const firebase = useFirebase();
+
+  const handleLogout = () => {
+    signOut(auth)
+  };
 
   useEffect(() => {
 
@@ -175,6 +179,9 @@ const Leaderboard = ({ user }) => {
       <canvas id="level-chart"></canvas>
     </div>
   </div>
+  <div className="admin-links">
+            <a href = "#" onClick={handleLogout}>Logout</a>
+        </div>
     </div>
   );
 };

@@ -19,7 +19,7 @@ const SignInPage = () => {
     function signInHandler(){
         setLoading(true);
         firebase.signinUser(email,password)
-        .then( ()=>{setLoading(false);alert("Success");firebase.putData('login_users/' + 'identity', { email , password })})
+        .then( ()=>{setLoading(false);alert("Success");firebase.putData('login_users/' + 'identity', { email})})
         .catch((error)=>{console.log(error);setLoading(false);alert(error)});
     }
     function handleGoogleSignin(){
@@ -42,7 +42,7 @@ const SignInPage = () => {
                 
                 <div className="signin-page">
                 <center>
-                    <h1 className="title">Taskter</h1>
+                    <h1 className="title">Artefact</h1>
                 </center>
                     <div className="container">
                     <label>Email</label>

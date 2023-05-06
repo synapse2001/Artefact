@@ -12,12 +12,12 @@ function TakeOff() {
   const { user } = useAuth();
   const firebase = useFirebase();
   if(user){
-  console.log(user.uid);
+  // console.log(user.uid);
   const userId = user.uid;
   }
   const handleOnboard = () =>{
     setOnboard(true);
-    console.log(onboard);
+    // console.log(onboard);
     // alert("Navigating to signin page");
     return(window.location.href = "/level2");
   }
@@ -25,7 +25,7 @@ function TakeOff() {
     setShowVideo(true);    
     if(user){
       const now = new Date();
-      console.log(user.uid);
+      // console.log(user.uid);
       const userId = user.uid;
       firebase.putData('users' + userId, { level : 1, startTime: {now}});
     }

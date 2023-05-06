@@ -23,9 +23,8 @@ const Level3 = ({user}) => {
     };
 
     const handleCheckRow1 = () => {
-        console.log("here", row1[0]);
-        const answer = row1[0] + row1[1] + row1[2] + row1[3];
-        console.log(row1[0]);
+        // console.log("here", row1[0]);
+        // console.log(row1[0]);
 
         if (row1[0] == "X" || row1[0] == "x") {
             setColorcell1("green")
@@ -48,16 +47,16 @@ const Level3 = ({user}) => {
         if ((row1[0] == "X" || row1[0] == "x")  && row1[2] == 1 && row1[3] == 5) {
             if(user){
             firebase.putData('users' + user.uid, { level : 3});
-            setTimeout(() => {return(window.location.href = "/level4");},3000
+            setTimeout(() => {return(window.location.href = "/level4");},1500
             );}
         }
         if((row1[0] == "X" || row1[0] == "x")  && row1[2] == 4 && row1[3] == 3){
             if(user){
                 firebase.putData('users' + user.uid, { level : -1});
-                setTimeout(() => {return(window.location.href = "/deadend");},3000
+                setTimeout(() => {return(window.location.href = "/deadend");},1500
                 );}
         }
-        console.log(row1);
+        // console.log(row1);
     };
 
 
@@ -66,7 +65,7 @@ const Level3 = ({user}) => {
             <div className="level3-pretext"><h1>The Numble Game  
                     <br />Make a intelligent guess <br/>
                     There are three input fields<br/>
-                    If you are right they go green<br/>
+                    If you are right the input turns green<br/>
                     <p className="level3-instruction">Clue : <br/><br/>
                     I soar through the skies at incredible speeds, <br/>
                     Mach 6 and higher, my velocity exceeds.<br/>

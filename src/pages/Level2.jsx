@@ -31,11 +31,11 @@ function Level2() {
     const handleLanding = (e) => {
         if(sliderValue == 2 && landingOption == "hudson" && apu == 'on'){
             firebase.putData('users' + user.uid, { level : 2});
-            setTimeout(() => {return(window.location.href = "/level3");},2000
+            setTimeout(() => {return(window.location.href = "/level3");},1500
             );
         }else{
             firebase.putData('users' + user.uid, { level : -1});
-            setTimeout(() => {return(window.location.href = "/deadend");},2000
+            setTimeout(() => {return(window.location.href = "/deadend");},1500
             );
         }
     };
@@ -45,13 +45,13 @@ function Level2() {
         <div className="crash">
             {!showVideo && (
                 <div>
-                    <div className="crash-pre-text"><h1>You have to make a Emergency Decent 
+                    <div className="crash-pre-text"><h1>You have to make a Emergency Descent 
                     <br />And every second counts<br/>
                     <p className="level2-instruction">Instruction : <br/>
                         A eye for detail <br/>
                          You need to find clues to land safely<br/>
                          Go Go Go ! Clocks Ticking< br/>
-                        <a href ="https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s" target="_blank">Click Me</a>
+                        <a href ="https://www.youtube.com/watch?v=qHQmkJjwNqs" target="_blank">Click Me</a>
                     </p>         
                     </h1></div>
                     <div>
@@ -98,7 +98,6 @@ function Level2() {
 
             {showVideo && (
                 <div className="crash-video-container">
-                    <a className="crash-pre-text"><h1>Setting Up Things <br />While You Enjoy your Flight </h1></a>
                     <video id="crashvideo" className="crash-video" controls autoPlay onEnded={handleVideoend}>
                         <source src="assets/videos/crash.mp4" type="video/mp4" />
                     </video>

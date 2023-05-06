@@ -46,14 +46,14 @@ const Player = ({ podcast,audioElem,isPlaying,setisPlaying,currentPodcast,setcur
         // console.log(currentPodcast.length);
         // console.log(audioElem.current.currentTime);
         let settime = (divprogress / 100 )* currentPodcast.length
-        console.log(settime);
-        console.log(audioElem.current.currentTime);
+        // console.log(settime);
+        // console.log(audioElem.current.currentTime);
         // audioElem.current.oncanplay = function(){
         //     console.log("i am in");
         //     audioElem.current.currentTime =settime;
         // };
         setTime(settime);
-        console.log(audioElem.current.currentTime);
+        // console.log(audioElem.current.currentTime);
     }
 
     // const skipBack = () =>{

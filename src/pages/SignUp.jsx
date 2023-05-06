@@ -10,20 +10,13 @@ import googleSigninImgDark from '../assets/google_signin.png';
 import googleSigninImgLight from '../assets/google_signin_light.png';
 import SignInPage from "../pages/SignIn";
 
-// use googleSigninImg variable in your component
-
-// const signUpButton = document.getElementById('signup-button');
-// const loadingSpinner = document.createElement('div');
-// cannot be used in react//////////////////////////////////////////////////////////////////
-// loadingSpinner.className = 'loading-spinner';
-//import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 const refSignInPage =() =>{
-    alert("Navigating to signin page");
+    // alert("Navigating to signin page");
     return(window.location.href = "/SignInPage");
 }
 const refAdminPage = () =>{
-    alert("Navigating to Admin Page");
+    // alert("Navigating to Admin Page");
     return(window.location.href = "/SignInPage")
 }
 
@@ -32,7 +25,7 @@ const refAdminPage = () =>{
 
 const SignUpPage = () => {
     const firebase =useFirebase();
-    console.log("firebase", firebase);
+    // console.log("firebase", firebase);
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -41,13 +34,13 @@ const SignUpPage = () => {
     function handleClick(){
         setLoading(true);
         firebase.createUser(email,password)
-        .then( ()=>{setLoading(false);alert("Success");firebase.putData('users/' + 'email', { email , password })})
+        .then( ()=>{setLoading(false);alert("Success")})
         .catch((error)=>{console.log(error);setLoading(false);alert(error)});
     };
 
     function handleGoogleSignin(){
         let data =firebase.fetchData('users' + 'userssGOLiZue55gFr11u3r6nwErCbpv1')
-        console.log(data);
+        // console.log(data);s
         // alert("signin called");
         firebase.signinwithGoogle();
     }
