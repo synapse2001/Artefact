@@ -12,22 +12,22 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
 
 ##Table
 <!-- <> -->
-    * [Game Features](#game-features)
-    * [Flow Chart Markdown](#flow-chart-markdown)
-    * [Player and Analytics](#player-and-analytics)
-    * [Authentication](#authentication)
-    * [Authorization and Security](#authorization-and-security)
-    * [Screen Shots](#screen-shots)
-    * [Structure of the game](#structure-of-the-game)
-    * [General Instructions for the game are as follows:](#general-instructions-for-the-game-are-as-follows)
-    * [Stage 1: Ready for Takeoff](#stage-1-ready-for-takeoff)
-    * [Stage 2: Save the Souls](#stage-2-save-the-souls)
-    * [Stage 3: The Numble Game](#stage-3-the-numble-game)
-    * [Stage 4: The lost Artefact](#stage-4-the-lost-artefact)
-    * [Stage 5: The Flying Enigma](#stage-5-the-flying-enigma)
-    * [Tech stack:](#tech-stack)
-    * [Project Set-up](#project-set-up)
-    * [Credits](#credits)
+* [Game Features](#game-features)
+* [Flow Chart Markdown](#flow-chart-markdown)
+* [Player and Analytics](#player-and-analytics)
+* [Authentication](#authentication)
+* [Authorization and Security](#authorization-and-security)
+* [Screen Shots](#screen-shots)
+* [Structure of the game](#structure-of-the-game)
+* [General Instructions for the game are as follows:](#general-instructions-for-the-game-are-as-follows)
+* [Stage 1: Ready for Takeoff](#stage-1-ready-for-takeoff)
+* [Stage 2: Save the Souls](#stage-2-save-the-souls)
+* [Stage 3: The Numble Game](#stage-3-the-numble-game)
+* [Stage 4: The lost Artefact](#stage-4-the-lost-artefact)
+* [Stage 5: The Flying Enigma](#stage-5-the-flying-enigma)
+* [Tech stack:](#tech-stack)
+* [Project Set-up](#project-set-up)
+* [Credits](#credits)
 <!-- <> -->
 
 ## Game Features
