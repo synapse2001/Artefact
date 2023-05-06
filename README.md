@@ -30,9 +30,22 @@ Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master.
     1. First on stage 2:  Save the Souls
     2. Second on stage 3:  The Numble Game
 <br>
-<!-- <p align="left">
-<img src="./src/assets/deadend.png" alt="" width=500> </p>
-     -->
+
+## Flow Chart Markdown
+    ```mermaid
+        graph LR
+        A[Stage 1] --> B[Stage 2]
+        B --> C[Stage 3]
+        C --> D[Stage 4]
+        D --> E[Stage 5]
+        E --> F[Reward]
+        B --> G[Dead End]
+        C --> H[Dead End]
+        G --> A
+        H --> A
+
+
+
 ### Player and Analytics
 - User leader board
 - Admin Panel
@@ -376,15 +389,3 @@ replace the credentials at the necessary locations, as this project utilizes Fir
 - Sully Movie: https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
 - Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
 - Images and Graphics: https://www.freepik.com/
-
-
-
-```mermaid
-graph LR
-A[Stage 1] --> B[Stage 2]
-B --> C[Stage 3]
-C --> D[Stage 4]
-D --> E[Stage 5]
-E --> F[Reward]
-B --> G[Dead End]
-C --> H[Dead End]
