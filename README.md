@@ -1,11 +1,10 @@
-# Artefcat
+# Artefact
 
 <p align="center">
-</p>![artefact](https://user-images.githubusercontent.com/73771646/236609138-1bc2d252-4b6b-40b9-8634-a79496df91df.png)
+    <img src="./public/artefact.png" alt="" width=700>
 <br><br>
     An innovative experience that blends the thrill of a treasure hunt with the power of storytelling and puzzles to provide a one-of-a-kind soft skills assessment experience.
-
-
+</p>
 
 
 
