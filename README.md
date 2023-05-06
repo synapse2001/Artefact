@@ -1,7 +1,4 @@
 
-<!-- TABLE OF CONTENTS -->
-<!--ts-->
-<!--te-->
 # Artefact
 
 <p align="center">
