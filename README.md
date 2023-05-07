@@ -2,7 +2,7 @@
 # Artefact
 
 <p align="center">
-    <img src="./public/artefact.png" alt="" width=400>
+    <img src="https://user-images.githubusercontent.com/73771646/236688508-2e29830f-813c-4206-91f3-4cad828ab0a3.png" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
 Fly High and Dive Deep
@@ -94,23 +94,20 @@ Only logged in users can:
 <p align="left">
         Sign Up Page<hr>
         <br>
-        <img src="./src/assets/ss1.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688596-fbfb3ca6-5f1f-442e-847f-3a73fb52d944.png" alt="" >
         <br><br>
         Login Page<hr>
         <br>
-        <img src="./src/assets/sin.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688651-30d6ed8f-43c9-477b-94a6-99a5e7dc1759.png" alt="" >
         <br><br>
          Admin Panel and LeaderBoard<hr>
-         <br>
-        <img src="./src/assets/admin-panel.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688719-a905042f-12ac-4eed-8b02-6ce79358bf27.png" alt="" >
         <br><br>
          Player Analytics Graph<hr>
-          <br>
-        <img src="./src/assets/chart.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688746-213c82dc-54da-4db4-84fc-a4c8b91fab22.png" alt="" >
         <br><br>
          Wing Master Certificate<hr>
-         <br>
-        <img src="./src/assets/result.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688795-7c5e2d4d-3a42-4cf3-b76b-4b64318145da.png" alt="" >
 </p>
 
 
@@ -137,8 +134,9 @@ Only logged in users can:
 # Stage 1: Ready for Takeoff
 <hr>
 <p align="center">
-        <img src="./src/assets/stage1.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688850-c9f9e5d1-5664-4663-aba8-68eec0a51764.png" alt="" >
     </p>
+
 
 
 ## Soft skills tested: 
@@ -178,8 +176,9 @@ This stage aims to give players a head start and take them on a thrilling journe
 # Stage 2: Save the Souls
 <hr>
 <p align="center">
-        <img src="./src/assets/stage2.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688882-40884ead-f87f-454f-ab7d-c31647f4c230.png" alt="" >
     </p>
+
 
 ## Soft skills tested: 
 
@@ -223,8 +222,9 @@ This stage is design to assess memory and decision making skills.
 # Stage 3: The Numble Game
 <hr>
 <p align="center">
-        <img src="./src/assets/stage3.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688930-c88f0444-3ee3-44d4-ad7d-74a24fbc0ad5.png" alt="" >
     </p>
+
 
 ## Soft skills tested:
 
@@ -262,8 +262,9 @@ The stage tests user of thier knowledge of niche things and asses the logical co
 # Stage 4: The lost Artefact
 <hr>
 <p align="center">
-        <img src="./src/assets/stage4.gif" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688976-d955f2bf-88e4-44db-afb9-05e4de4f046a.gif" alt="" >
     </p>
+
 
 ## Soft skills tested: 
 - Comprehension
@@ -296,8 +297,9 @@ The satge is to test user compreshension and Auditory Skills.
 # Stage 5: The Flying Enigma
 <hr>
 <p align="center">
-        <img src="./src/assets/stage5.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236689010-9a981e4f-0a9e-4fc3-80e2-0f4a27162f53.png" alt="" >
     </p>
+
 
 ## Soft skills tested: 
 
@@ -413,7 +415,3 @@ replace the credentials at the necessary locations, as this project utilizes Fir
 - Sully Movie Scene : https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
 - Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
 - Images and Graphics: https://www.freepik.com/
-
-
-
-
