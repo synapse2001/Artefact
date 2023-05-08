@@ -415,7 +415,7 @@ replace the credentials at the necessary locations, as this project utilizes Fir
     
     $ npm install chart.js
     
-### Run the Project 
+## Run the Project 
     $ npm start
 <br>
 
