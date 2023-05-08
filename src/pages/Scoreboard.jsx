@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useFirebase,auth } from "../context/firebase";
 import Chart from 'chart.js/auto';
 import "../styles/Leaderboard.css"
+import "../styles/Scoreboard.css"
 import { signOut } from "firebase/auth";
 
-const Leaderboard = ({ user }) => {
+const ScoreCard = ({ user }) => {
   const [winners, setwinners] = useState([]);
   const firebase = useFirebase();
 
@@ -155,26 +156,23 @@ const Leaderboard = ({ user }) => {
 
   return (
     <div className="leaderboard-container">
-        <div className="admin-text">
-          Admin Panel
-        </div>
       <h2>Leaderboard</h2>
-        <div className="chart-container">
-    <div className="bar-chart-container">
-      <h2 class="chart-title"><u>Score</u></h2>
+      <div className="chart-container-user">
+    <div className="bar-chart-container-user">
+      <h2 class="chart-title">Score</h2>
       <canvas id="leaderboard-chart"></canvas>
     </div>
-    <div className="pie-chart-container">
-      <h2 class="chart-title"><u>No. of Users by thier current Level</u></h2>
-      <canvas id="level-chart"></canvas>
-    </div>
+    <div className="admin-text-user">
+    <div className="admin-links">
+            <a href = "/" >Go Back</a>
+        </div>
+        </div>
   </div>
       <table className="leaderboard-table">
         <thead>
           <tr>
             <th>Rank</th>
             <th>Name</th>
-            <th>Email</th>
             <th>Time Taken (minutes)</th>
             <th>Level</th>
           </tr>
@@ -184,7 +182,6 @@ const Leaderboard = ({ user }) => {
             <tr key={index}>
               <td>{index+1}</td>
               <td>{user.name}</td>
-              <td>{user.email}</td>
               <td>{user.timeTaken}</td>
               <td>{user.level}</td>
             </tr>
@@ -198,4 +195,4 @@ const Leaderboard = ({ user }) => {
   );
 };
 
-export default Leaderboard;
+export default ScoreCard;

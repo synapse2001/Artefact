@@ -23,6 +23,9 @@ function Certificate({user}) {
             window.location.href = "/";
         }
       };
+      const handleRef = () =>{
+        return(window.location.href = "/ScoreCard");
+      }
       
     useEffect(() => {
     if(user){
@@ -58,6 +61,7 @@ return (
         <div className="certificate-links">
             <a href = "#" onClick={handleLogout}>Logout</a>
             <a href = "#" onClick={handlePlayAgain}>Play Again</a>
+            <a href = "#" onClick={handleRef}>Leaderboard</a>
         </div>
       </div>
     </div>

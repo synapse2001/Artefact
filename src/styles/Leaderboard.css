@@ -37,21 +37,27 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin-top: 2rem;
+    margin-bottom: 50px;
   }
   
   .bar-chart-container{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    /* margin-left: 200px; */
+    width: 70%;
+    align-items: center;
     height: 400px;
   }
   .pie-chart-container {
+    /* margin-right: 200px; */
     display: flex;
     flex-direction: column;
     width: 30%;
     height: 400px;
+    margin-bottom: 40px;
+    padding-right: 200px;
   }
   
   @media only screen and (max-width: 768px) {
@@ -74,7 +80,7 @@
   }
   
   .chart-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
   }

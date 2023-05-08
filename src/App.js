@@ -13,6 +13,7 @@ import Level5 from './pages/Level5';
 import Certificate from './pages/Certificate';
 import Deadend from './pages/Deadend';
 import Leaderboard from './pages/Welcome';
+import ScoreCard from './pages/Scoreboard';
 
 
 
@@ -72,6 +73,9 @@ function App() {
     }
     if (user.email === 'admin@admin.com') {
       return <Leaderboard user={user} />
+    }
+    if(window.location.pathname === "/ScoreCard"){
+      return(<ScoreCard user={user}/>)
     }
 
     switch (userLevel) {
