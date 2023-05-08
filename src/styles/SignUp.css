@@ -49,6 +49,7 @@
     color: #ffffff;
     margin-top: 20px;
     font-size: 20px;
+    font-weight:bold;
   }
   
   .container{
@@ -87,6 +88,7 @@
   font-size: 20px;
   padding-left: 5px;
   font-weight: bold;
+  opacity: 0.6;
 }
   /* Style the label for the password input */
   /* .signup-page label:last-of-type {
@@ -115,7 +117,7 @@
     font-size: 20px;
     font-weight: bold;
     padding-left: 5px;
-
+    opacity: 0.6;
   }
   
   /* Style the signup button */
@@ -155,7 +157,9 @@
     color: #ffffff; /* Change the color to your preferred color */
   }
   
-  
+  .developer{
+    color: rgb(15, 125, 234);
+  }
 
   /* Style the loading animation */
 .signup-page .loading-spinner {

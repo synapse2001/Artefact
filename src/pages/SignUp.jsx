@@ -59,7 +59,7 @@ const SignUpPage = () => {
                 </section>
                 <div className="signup-page">
                 <center>
-                    <h1 className="title">Artefact</h1>
+                    <h1 className="title">Artefact<br/><small><small><u><i><a className="developer" href="https://github.com/synapse2001" target="_blank">by Gagan Agarwal</a></i></u></small></small></h1>
                 </center>
                     <div className="container">
                     <label>Email</label>

@@ -42,7 +42,7 @@ const SignInPage = () => {
                 
                 <div className="signin-page">
                 <center>
-                    <h1 className="title">Artefact</h1>
+                    <h1 className="title">Artefact<br/><small><small><u><a className="developer" href="https://github.com/synapse2001" target="_blank">by Gagan Agarwal</a></u></small></small></h1>
                 </center>
                     <div className="container">
                     <label>Email</label>
