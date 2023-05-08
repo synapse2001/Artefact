@@ -268,7 +268,7 @@ The stage tests user of thier knowledge of niche things and asses the logical co
 # Stage 4: The lost Artefact
 <hr>
 <p align="center">
-        <img src="https://user-images.githubusercontent.com/73771646/236688976-d955f2bf-88e4-44db-afb9-05e4de4f046a.gif" alt="" height = 700 >
+        <img src="https://user-images.githubusercontent.com/73771646/236688976-d955f2bf-88e4-44db-afb9-05e4de4f046a.gif" alt="" height = 450 >
     </p>
 
 
