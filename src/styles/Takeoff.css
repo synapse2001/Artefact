@@ -54,3 +54,12 @@ body{
     max-width: 100%;
     max-height: 100%;
   }
+
+  .prevent-video-stop{
+    position: absolute;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: bisque; */
+    z-index: 1;
+  }

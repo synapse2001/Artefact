@@ -49,7 +49,7 @@ function Level2() {
                         Stage 2: Save The Souls <br/>
                         You have to make a Emergency Descent <br/>
                         And every second counts<br/>
-                    <p className="level2-instruction">Instruction : <br/>
+                    <p className="level2-instruction">Instruction : <br/> <br/>
                         A eye for detail <br/>
                          You need to find clues to land safely<br/>
                          Go Go Go ! Clocks Ticking< br/>
@@ -99,10 +99,14 @@ function Level2() {
             )}
 
             {showVideo && (
+                        <div>
+                        <div className="prevent-video-stop">  
+                        </div>
                 <div className="crash-video-container">
                     <video id="crashvideo" className="crash-video" controls autoPlay onEnded={handleVideoend}>
                         <source src="assets/videos/crash.mp4" type="video/mp4" />
                     </video>
+                </div>
                 </div>
             )}
         </div>

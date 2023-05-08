@@ -57,11 +57,16 @@ function TakeOff() {
       )}
 
       {showVideo && (
+        <div>
+          <div className="prevent-video-stop">
+            
+          </div>
         <div className="takeoff-video-container">
           <a className="takeoff-pre-text" onClick={handleThrottleClick} ><h1>Setting Up Things <br/>While You Enjoy your Flight </h1></a>
             <video className="video" controls autoPlay onEnded={handleOnboard}>
                 <source src="assets/videos/takeoff.mp4" type="video/mp4" />
             </video>
+        </div>
         </div>
       )}
     </div>
