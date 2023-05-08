@@ -2,7 +2,7 @@
 # Artefact
 
 <p align="center">
-    <img src="./public/artefact.png" alt="" width=400>
+    <img src="https://user-images.githubusercontent.com/73771646/236688508-2e29830f-813c-4206-91f3-4cad828ab0a3.png" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
 Fly High and Dive Deep
@@ -92,25 +92,28 @@ Only logged in users can:
 # Screen Shots
 
 <p align="left">
-        <img src="./src/assets/ss1.png" alt="" >
-        <br>
         Sign Up Page<hr>
-        <br><br>
-        <img src="./src/assets/sin.png" alt="" >
         <br>
+        <img src="https://user-images.githubusercontent.com/73771646/236688596-fbfb3ca6-5f1f-442e-847f-3a73fb52d944.png" alt="" >
+        <br><br>
         Login Page<hr>
-        <br><br>
-        <img src="./src/assets/admin-panel.png" alt="" >
         <br>
-        Admin Panel and LeaderBoard<hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236688651-30d6ed8f-43c9-477b-94a6-99a5e7dc1759.png" alt="" >
         <br><br>
-        <img src="./src/assets/chart.png" alt="" >
-        <br>
-        Player Analytics Graph<hr>
+         Admin Panel and LeaderBoard<hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236688719-a905042f-12ac-4eed-8b02-6ce79358bf27.png" alt="" >
         <br><br>
-        <img src="./src/assets/result.png" alt="" >
-        <br>
-        Wing Master Certificate<hr>
+         Player Analytics Graphs<hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236883030-76a633f0-2b88-4c61-a1cd-fa0de7bbf604.png" alt="" >
+        <br><br>
+         Player Scorecard View <hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236883438-2854b849-066d-40a9-8c84-f2db7fb90ddc.png" alt="" >
+        <br><br>
+         Deadend <hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236887905-fee3d353-09d5-4fc9-87ea-c80d02ef1691.png" alt="" >
+        <br><br>
+         Wing Master Certificate<hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236887647-d26f4bfb-4985-48d9-841a-4787ce3a44c6.png" alt="" >
 </p>
 
 
@@ -137,8 +140,9 @@ Only logged in users can:
 # Stage 1: Ready for Takeoff
 <hr>
 <p align="center">
-        <img src="./src/assets/stage1.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688850-c9f9e5d1-5664-4663-aba8-68eec0a51764.png" alt="" >
     </p>
+
 
 
 ## Soft skills tested: 
@@ -178,8 +182,9 @@ This stage aims to give players a head start and take them on a thrilling journe
 # Stage 2: Save the Souls
 <hr>
 <p align="center">
-        <img src="./src/assets/stage2.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688882-40884ead-f87f-454f-ab7d-c31647f4c230.png" alt="" >
     </p>
+
 
 ## Soft skills tested: 
 
@@ -223,8 +228,9 @@ This stage is design to assess memory and decision making skills.
 # Stage 3: The Numble Game
 <hr>
 <p align="center">
-        <img src="./src/assets/stage3.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688930-c88f0444-3ee3-44d4-ad7d-74a24fbc0ad5.png" alt="" >
     </p>
+
 
 ## Soft skills tested:
 
@@ -262,8 +268,9 @@ The stage tests user of thier knowledge of niche things and asses the logical co
 # Stage 4: The lost Artefact
 <hr>
 <p align="center">
-        <img src="./src/assets/stage4.gif" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688976-d955f2bf-88e4-44db-afb9-05e4de4f046a.gif" alt="" height = 450 >
     </p>
+
 
 ## Soft skills tested: 
 - Comprehension
@@ -296,8 +303,9 @@ The satge is to test user compreshension and Auditory Skills.
 # Stage 5: The Flying Enigma
 <hr>
 <p align="center">
-        <img src="./src/assets/stage5.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236689010-9a981e4f-0a9e-4fc3-80e2-0f4a27162f53.png" alt="" >
     </p>
+
 
 ## Soft skills tested: 
 
@@ -369,11 +377,11 @@ Database Structure Used
 - #### Node installation on Windows
 
     $ winget install node
-<br>
-    or go on [official Node.js website](https://nodejs.org/) and download the installer.
-    Also, be sure to have `git` available in your PATH.
 
-- #### Node installation on Ubuntu
+- or go on [official Node.js website](https://nodejs.org/) and download the installer.
+ Also, be sure to have `git` available in your PATH.
+
+- #### Node installation on Linux
 
   You can install nodejs and npm easily with apt install, just run the following commands.
 
@@ -406,14 +414,12 @@ replace the credentials at the necessary locations, as this project utilizes Fir
     $ npm install saas
     
     $ npm install chart.js
-
+    
+## Run the Project 
+    $ npm start
 <br>
 
 # Credits
 - Sully Movie Scene : https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
 - Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
 - Images and Graphics: https://www.freepik.com/
-
-
-
-
