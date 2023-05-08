@@ -5,8 +5,9 @@
     <img src="https://user-images.githubusercontent.com/73771646/236688508-2e29830f-813c-4206-91f3-4cad828ab0a3.png" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
-Fly High and Dive Deep
-Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
+Fly High and Dive Deep,
+based on Avaition theme. Trivia, puzzles, and your chance to be a Wing Master. <br><br>
+https://artefact-zeta.vercel.app/
 </p>
 <br>
 
