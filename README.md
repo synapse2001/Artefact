@@ -103,11 +103,17 @@ Only logged in users can:
          Admin Panel and LeaderBoard<hr>
         <img src="https://user-images.githubusercontent.com/73771646/236688719-a905042f-12ac-4eed-8b02-6ce79358bf27.png" alt="" >
         <br><br>
-         Player Analytics Graph<hr>
-        <img src="https://user-images.githubusercontent.com/73771646/236688746-213c82dc-54da-4db4-84fc-a4c8b91fab22.png" alt="" >
+         Player Analytics Graphs<hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236883030-76a633f0-2b88-4c61-a1cd-fa0de7bbf604.png" alt="" >
+        <br><br>
+         Player Scorecard View <hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236883438-2854b849-066d-40a9-8c84-f2db7fb90ddc.png" alt="" >
+        <br><br>
+         Deadend <hr>
+        <img src="https://user-images.githubusercontent.com/73771646/236887905-fee3d353-09d5-4fc9-87ea-c80d02ef1691.png" alt="" >
         <br><br>
          Wing Master Certificate<hr>
-        <img src="https://user-images.githubusercontent.com/73771646/236688795-7c5e2d4d-3a42-4cf3-b76b-4b64318145da.png" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236887647-d26f4bfb-4985-48d9-841a-4787ce3a44c6.png" alt="" >
 </p>
 
 
@@ -262,7 +268,7 @@ The stage tests user of thier knowledge of niche things and asses the logical co
 # Stage 4: The lost Artefact
 <hr>
 <p align="center">
-        <img src="https://user-images.githubusercontent.com/73771646/236688976-d955f2bf-88e4-44db-afb9-05e4de4f046a.gif" alt="" >
+        <img src="https://user-images.githubusercontent.com/73771646/236688976-d955f2bf-88e4-44db-afb9-05e4de4f046a.gif" alt="" height = 700 >
     </p>
 
 
@@ -408,7 +414,9 @@ replace the credentials at the necessary locations, as this project utilizes Fir
     $ npm install saas
     
     $ npm install chart.js
-
+    
+### Run the Project 
+    $ npm start
 <br>
 
 # Credits
