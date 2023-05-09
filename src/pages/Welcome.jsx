@@ -29,12 +29,20 @@ const Leaderboard = ({ user }) => {
           const temp1 = dataArray.map((_, key) => {
             const temp2 = dataArray[key];
             console.log(temp2);
+            if(temp2['level'] === undefined){
+              return {
+                email: temp2['userEmail'],
+                timeTaken: temp2['timeTaken']['durationMin'],
+                name: temp2['userName'],
+                level: 0,
+              }
+            }else{
             return {
               email: temp2['userEmail'],
               timeTaken: temp2['timeTaken']['durationMin'],
               name: temp2['userName'],
               level: temp2['level'],
-            }
+            }}
           });
           setwinners(temp1.sort((a, b) => {
             // Sort by level first

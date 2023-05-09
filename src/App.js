@@ -66,7 +66,10 @@ function App() {
         firebase.putData('users' + userId, { userEmail });
         firebase.putData('users' + userId, { timeTaken: { durationMin: 0 } });
         firebase.putData('users' + userId, { userName });
-        if (userName == null) { firebase.putData('users' + userId, { userName: "Player" }); }
+        if (userName == null) { 
+          const temp = userEmail.split('@')[0];
+          firebase.putData('users' + userId, { userName: temp }); 
+        }
       } else {
         console.log("Existing User");
       }
