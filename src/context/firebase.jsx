@@ -6,7 +6,8 @@ import { getAuth,
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword, 
     GoogleAuthProvider,
-    signInWithRedirect, 
+    // signInWithRedirect,
+    signInWithPopup 
 } from "firebase/auth";
 
 // import { initializeApp } from "firebase/app";
@@ -58,7 +59,8 @@ export const FirebaseProvider = (props) => {
         return signInWithEmailAndPassword(auth, email2, password2)
     };
     const signinwithGoogle = () =>{
-        return signInWithRedirect(auth, googleProvider);
+        // return signInWithRedirect(auth, googleProvider);
+        return signInWithPopup(auth, googleProvider);
     }
 
     return (
